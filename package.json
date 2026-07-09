@@ -1,0 +1,12 @@
+{
+  "name": "ai-signal-daily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "update": "node scripts/update-daily.mjs",
+    "check": "node --check assets/app.js && node --check scripts/update-daily.mjs && node --check scripts/serve.mjs"
+  }
+}

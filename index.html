@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="AI Signal Daily 汇总过去 24 小时 X 平台与主流媒体的 AI 技术、商业、投资与监管新闻。"
+    />
+    <title>AI Signal Daily</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="AI Signal Daily">
+          <span class="brand-mark" aria-hidden="true">AS</span>
+          <span>
+            <strong>AI Signal Daily</strong>
+            <small>24h AI 新闻情报</small>
+          </span>
+        </a>
+        <div class="topbar-meta">
+          <span id="edition-date">--</span>
+          <span id="update-window">加载中</span>
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深浅色主题">
+            <span aria-hidden="true">◐</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="signal-hero" aria-labelledby="daily-title">
+          <img class="signal-art" src="assets/signal-map.png" alt="" />
+          <div class="signal-copy">
+            <p class="eyebrow">Daily Edition · Beijing 08:00</p>
+            <h1 id="daily-title">24h AI 情报</h1>
+            <p id="daily-summary" class="daily-summary">正在读取今日版面。</p>
+          </div>
+          <div class="metric-strip" id="metric-strip" aria-label="日报指标"></div>
+        </section>
+
+        <section class="brief-row" aria-label="今日主线">
+          <div>
+            <span class="section-kicker">Key Lines</span>
+            <h2>今日主线</h2>
+          </div>
+          <div class="keylines" id="keylines"></div>
+        </section>
+
+        <section class="workspace-grid">
+          <div class="feed-area">
+            <div class="toolbar" aria-label="新闻筛选">
+              <div class="search-box">
+                <span aria-hidden="true">⌕</span>
+                <input id="search-input" type="search" placeholder="搜索模型、公司、芯片、投资、监管" />
+              </div>
+              <div class="filter-tabs" id="filter-tabs" role="tablist" aria-label="分类"></div>
+            </div>
+            <div class="story-list" id="story-list" aria-live="polite"></div>
+          </div>
+
+          <aside class="insight-rail" aria-label="热点与分析">
+            <section class="panel">
+              <div class="panel-heading">
+                <span class="section-kicker">X Signals</span>
+                <h2>X 热点追踪</h2>
+              </div>
+              <div id="x-trends" class="trend-list"></div>
+            </section>
+
+            <section class="panel">
+              <div class="panel-heading">
+                <span class="section-kicker">Deep Brief</span>
+                <h2>深度短评</h2>
+              </div>
+              <div id="briefings" class="briefing-list"></div>
+            </section>
+
+            <section class="panel">
+              <div class="panel-heading">
+                <span class="section-kicker">Watchlist</span>
+                <h2>继续观察</h2>
+              </div>
+              <ul id="watchlist" class="watchlist"></ul>
+            </section>
+          </aside>
+        </section>
+
+        <section class="source-band" aria-labelledby="source-title">
+          <div>
+            <span class="section-kicker">Coverage</span>
+            <h2 id="source-title">来源覆盖</h2>
+          </div>
+          <div id="source-grid" class="source-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

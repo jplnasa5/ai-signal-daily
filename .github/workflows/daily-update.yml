@@ -1,0 +1,39 @@
+name: Daily AI Signal Update
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 Asia/Shanghai
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate daily edition
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: node scripts/update-daily.mjs
+
+      - name: Commit updated edition
+        run: |
+          git config user.name "ai-signal-bot"
+          git config user.email "ai-signal-bot@users.noreply.github.com"
+          git add data/current.json data/archive
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update AI Signal Daily"
+            git push
+          fi

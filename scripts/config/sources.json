@@ -1,0 +1,97 @@
+{
+  "rssSources": [
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "Official",
+      "region": "US",
+      "weight": 1.18
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "type": "Official",
+      "region": "US",
+      "weight": 1.12
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "type": "Tech media",
+      "region": "US",
+      "weight": 1.02
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "type": "Tech media",
+      "region": "US",
+      "weight": 1.04
+    },
+    {
+      "id": "mit-tr-ai",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "type": "Research media",
+      "region": "US",
+      "weight": 1.06
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "type": "Official",
+      "region": "US",
+      "weight": 1.08
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "type": "Tech media",
+      "region": "US",
+      "weight": 0.98
+    }
+  ],
+  "xQueries": [
+    {
+      "topic": "OpenAI / GPT",
+      "query": "(OpenAI OR ChatGPT OR GPT) (AI OR model OR agent)",
+      "category": "大模型"
+    },
+    {
+      "topic": "Anthropic / Claude",
+      "query": "(Anthropic OR Claude) (AI OR model OR agent)",
+      "category": "大模型"
+    },
+    {
+      "topic": "xAI / Grok",
+      "query": "(xAI OR Grok) (AI OR model OR Elon)",
+      "category": "大模型"
+    },
+    {
+      "topic": "AI Agent",
+      "query": "\"AI agent\" OR \"agentic AI\" OR \"AI agents\"",
+      "category": "Agent"
+    },
+    {
+      "topic": "AI Chips",
+      "query": "(NVIDIA OR GPU OR \"AI chip\" OR ASIC) (AI OR datacenter)",
+      "category": "芯片"
+    },
+    {
+      "topic": "AI Data Centers",
+      "query": "\"AI data center\" OR \"AI datacenter\" OR \"AI infrastructure\"",
+      "category": "投资"
+    },
+    {
+      "topic": "AI Safety",
+      "query": "\"AI safety\" OR \"AI security\" OR \"AI ransomware\"",
+      "category": "安全"
+    }
+  ]
+}
