@@ -51,7 +51,27 @@ GitHub Actions 权限：
 
 每日更新方式同上：GitHub Actions 更新 JSON 后触发 Vercel 自动部署。
 
-## 方案 C：GitHub Pages
+注意：`vercel.app` 域名在中国大陆访问可能不稳定。如果主要面向中国大陆用户，建议同时部署阿里云 OSS 镜像，见 [ALIYUN_DEPLOYMENT.md](./ALIYUN_DEPLOYMENT.md)。
+
+## 推荐方案 C：阿里云 OSS
+
+适合：面向中国大陆用户，需要比 `vercel.app` 更可控的访问入口。
+
+当前未备案阶段：
+
+- 使用阿里云 OSS 中国香港 Bucket
+- 绑定自定义域名
+- GitHub Actions 每天更新后自动同步到 OSS
+
+备案完成后：
+
+- 迁移到中国内地 OSS Bucket
+- 接入阿里云 CDN
+- 使用已备案域名访问
+
+具体步骤见 [ALIYUN_DEPLOYMENT.md](./ALIYUN_DEPLOYMENT.md)。
+
+## 方案 D：GitHub Pages
 
 适合：完全放在 GitHub 内，配置少。
 

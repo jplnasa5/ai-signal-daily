@@ -75,3 +75,5 @@ X_BEARER_TOKEN=your_token node scripts/update-daily.mjs
 ## 公开部署
 
 见 [DEPLOYMENT.md](./DEPLOYMENT.md)。推荐 Cloudflare Pages 或 Vercel；如果仓库公开，也可以直接使用 GitHub Pages。
+
+如果面向中国大陆用户，见 [ALIYUN_DEPLOYMENT.md](./ALIYUN_DEPLOYMENT.md)。未备案阶段建议先部署到阿里云 OSS 香港 Bucket；备案完成后再升级到中国内地 OSS + CDN。
