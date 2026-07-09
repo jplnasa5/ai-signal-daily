@@ -32,6 +32,12 @@ https://github.com/jplnasa5/ai-signal-daily
 - 更新 `data/current.json` 并提交
 - Cloudflare Pages 监听 GitHub 提交后自动重新部署
 
+GitHub Actions 权限：
+
+- 仓库 Settings -> Actions -> General -> Workflow permissions
+- 选择 `Read and write permissions`
+- 允许 workflow 提交更新后的 `data/current.json`
+
 ## 推荐方案 B：Vercel
 
 适合：上手快、自动生成公开 URL、预览部署方便。
