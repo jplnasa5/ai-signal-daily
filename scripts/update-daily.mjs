@@ -50,7 +50,7 @@ const CATEGORY_LABELS = {
 
 const CATEGORY_RULES = [
   ["chips", ["nvidia", "gpu", "chip", "semiconductor", "asic", "hbm", "cuda"]],
-  ["investment", ["funding", "investment", "valuation", "acquire", "deal", "ipo", "stock", "data center", "datacenter"]],
+  ["investment", ["funding", "investment", "valuation", "acquire", "deal", "ipo", "stock", "raises", "series a", "venture", "data center", "datacenter"]],
   ["safety", ["safety", "security", "ransomware", "cyber", "misuse", "risk", "jailbreak", "deepfake"]],
   ["policy", ["regulation", "regulator", "law", "policy", "export", "copyright", "antitrust", "government"]],
   ["models", ["model", "gpt", "claude", "gemini", "grok", "llm", "chatbot", "reasoning"]],
@@ -72,10 +72,22 @@ function hoursAgo(date, windowEnd) {
 }
 
 function decodeEntities(value = "") {
+  const namedEntities = {
+    nbsp: " ",
+    apos: "'",
+    ndash: "-",
+    mdash: "-",
+    lsquo: "'",
+    rsquo: "'",
+    ldquo: '"',
+    rdquo: '"',
+    hellip: "...",
+  };
   return value
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&([a-z]+);/gi, (match, name) => namedEntities[name] || match)
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
@@ -92,6 +104,28 @@ function stripHtml(value = "") {
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function truncateText(value, maxLength = 230) {
+  if (value.length <= maxLength) return value;
+  const boundary = value.slice(0, maxLength).search(/[。.!?][^。.!?]*$/);
+  if (boundary > maxLength * 0.45) return `${value.slice(0, boundary + 1).trim()}`;
+  return `${value.slice(0, maxLength - 3).trim()}...`;
+}
+
+function cleanFeedDescription(item) {
+  const title = stripHtml(item.title).toLowerCase();
+  const description = stripHtml(item.description)
+    .replace(/\bThe post .+ appeared first on .+\.$/i, "")
+    .replace(/\bRead more\.?$/i, "")
+    .replace(/\s+\[[^\]]*?\]$/g, "")
+    .trim();
+
+  if (!description || description.toLowerCase() === title) {
+    return "该来源没有提供足够完整的摘要，请打开原文查看详细内容。";
+  }
+
+  return truncateText(description);
 }
 
 function tag(block, name) {
@@ -163,32 +197,62 @@ function impactFor(score, category) {
   return "low";
 }
 
-function summaryFor(item, category) {
-  const title = stripHtml(item.title);
-  const hints = {
-    models: "这条信号与模型能力、产品分层或开发者采用有关，适合关注真实任务表现和 API 策略。",
-    research: "这条信号与底层技术、训练/推理效率或研究方向有关，重点看是否能被工程化复用。",
-    business: "这条信号与 AI 产品化、企业采用或用户工作流有关，重点看是否能形成持续付费场景。",
-    investment: "这条信号与融资、并购、估值或 AI 基础设施有关，重点看资本开支与商业回报是否匹配。",
-    chips: "这条信号与芯片、推理成本或算力供应有关，可能影响模型服务价格和交付能力。",
-    safety: "这条信号与 AI 安全、滥用、欺诈或网络攻防有关，重点看是否出现新的攻击面或治理要求。",
-    policy: "这条信号与监管、版权、出口管制或政府采用有关，后续可能影响企业合规成本。",
-  };
-  return `来源报道“${title}”。${hints[category] || hints.business}`;
+function summaryFor(item) {
+  return cleanFeedDescription(item);
 }
 
 function analysisFor(category, item) {
-  const title = stripHtml(item.title);
-  const templates = {
-    models: `这类模型新闻的关键不只是能力声明，而是 API、价格、上下文长度和真实任务稳定性。后续要看“${title}”是否能转化为开发者迁移和企业采购。`,
-    research: `技术进展需要放到可复现性和工程成本里评估。若“${title}”能降低推理、训练或部署门槛，它的影响会比单次 benchmark 更持久。`,
-    business: `商业价值取决于是否进入高频工作流。“${title}”值得关注的是用户留存、企业集成和是否形成清晰付费场景。`,
-    investment: `资本和基础设施新闻会影响 AI 公司的扩张速度，也会放大现金流和能源约束。“${title}”需要和长期算力需求一起看。`,
-    chips: `芯片新闻最终会反映在单位 token 成本和供给稳定性上。“${title}”若影响训练或推理成本，会传导到模型价格和产品毛利率。`,
-    safety: `安全事件的价值在于暴露新的攻击面。“${title}”提示团队把监测重点放到身份、权限、数据访问和自动化工具调用上。`,
-    policy: `监管新闻会改变模型公司和企业客户的合规成本。“${title}”后续要看执法尺度、跨境影响和行业自律标准。`,
+  const text = `${item.title} ${stripHtml(item.description)}`.toLowerCase();
+  const signals = [];
+
+  if (/(agi|artificial general intelligence|large language models just|llms just)/.test(text)) {
+    signals.push("这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。");
+  }
+  if (/(robotics|physical ai|robots|real-world data)/.test(text)) {
+    signals.push("机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。");
+  }
+  if (/(video game|simulation|training data)/.test(text)) {
+    signals.push("训练数据来源从网页文本扩展到游戏和仿真环境，意味着模型公司会继续寻找更结构化、更可控的数据供给。");
+  }
+  if (/(shutting up|interrupt|pause|turn-taking|talking to another person)/.test(text)) {
+    signals.push("语音交互的重点从“能说话”转向打断、停顿、轮次管理和实时性，这会直接影响助手在日常场景里的可用性。");
+  }
+  if (/(live translation|speak and listen at the same time|translation|simultaneous)/.test(text)) {
+    signals.push("同听同说和实时翻译会把语音模型从聊天功能推向会议、跨语言沟通和现场协作场景。");
+  }
+  if (/(voice|audio|conversation|live conversations)/.test(text)) {
+    signals.push("语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。");
+  }
+  if (/(video remix|google photos|relighting|background|artistic styles|video)/.test(text)) {
+    signals.push("消费级影像产品正在把生成式 AI 做成低门槛编辑能力，真正考验的是效果稳定性、版权边界和用户是否高频使用。");
+  }
+  if (/(nvidia|gpu|chip|semiconductor|cuda|nemotron|langchain)/.test(text)) {
+    signals.push("芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。");
+  }
+  if (/(government|national security|defense|policy|regulation|copyright|export)/.test(text)) {
+    signals.push("政府、国安和监管相关内容会影响模型公司的销售边界、合规成本和跨境可用性。");
+  }
+  if (/(deepfake|hoax|detector|misinformation|security|ransomware|cyber|safety)/.test(text)) {
+    signals.push("安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。");
+  }
+  if (/(funding|investment|valuation|deal|acquire|data center|datacenter|infrastructure)/.test(text)) {
+    signals.push("资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。");
+  }
+  if (/(grok|xai|openai|claude|gemini|model|llm|benchmark|reasoning)/.test(text)) {
+    signals.push("模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。");
+  }
+
+  const categoryFallbacks = {
+    models: "这条新闻属于模型与产品能力信号，后续重点是它能否带来开发者迁移、企业采用或明确的成本优势。",
+    research: "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+    business: "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+    investment: "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+    chips: "这条新闻属于算力供应链信号，后续重点是训练/推理成本、供给稳定性和生态兼容性。",
+    safety: "这条新闻属于安全治理信号，后续重点是风险是否可量化、工具是否能落地、平台是否会跟进规则。",
+    policy: "这条新闻属于监管与公共部门信号，后续重点是政策是否进入执行层面，以及对企业采购和模型发布的影响。",
   };
-  return templates[category] || templates.business;
+
+  return (signals[0] || categoryFallbacks[category] || categoryFallbacks.business);
 }
 
 function parseFeed(xml, source) {
@@ -270,7 +334,7 @@ function storyFromItem(item, windowEnd) {
   return {
     id: slugify(`${item.source.id || item.source.name}-${item.title}`),
     title: stripHtml(item.title),
-    summary: summaryFor(item, category),
+    summary: summaryFor(item),
     analysis: analysisFor(category, item),
     category,
     categoryLabel: CATEGORY_LABELS[category],

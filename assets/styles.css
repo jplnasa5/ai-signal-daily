@@ -445,6 +445,18 @@ h2 {
   line-height: 1.7;
 }
 
+.story-summary strong,
+.analysis strong {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--surface-2);
+  font-size: 12px;
+}
+
 .analysis {
   margin-top: 12px;
   padding-left: 12px;

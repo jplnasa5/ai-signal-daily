@@ -134,8 +134,8 @@ function renderStories() {
               <span>${story.region || "Global"}</span>
             </div>
             <h3><a href="${link}" target="_blank" rel="noreferrer">${story.title}</a></h3>
-            <p>${story.summary}</p>
-            <p class="analysis">${story.analysis}</p>
+            <p class="story-summary"><strong>摘要</strong>${story.summary}</p>
+            <p class="analysis"><strong>看点</strong>${story.analysis}</p>
             <div class="tag-row">${tags}</div>
           </div>
         </article>
