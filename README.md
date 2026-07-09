@@ -8,6 +8,12 @@
 https://ai-signal-daily-chi.vercel.app
 ```
 
+GitHub 仓库：
+
+```text
+https://github.com/jplnasa5/ai-signal-daily
+```
+
 ## 本地运行
 
 ```bash

@@ -8,6 +8,12 @@
 https://ai-signal-daily-chi.vercel.app
 ```
 
+GitHub 仓库：
+
+```text
+https://github.com/jplnasa5/ai-signal-daily
+```
+
 ## 推荐方案 A：Cloudflare Pages
 
 适合：免费、访问快、全球 CDN、静态站点稳定。
