@@ -205,8 +205,44 @@ function analysisFor(category, item) {
   const text = `${item.title} ${stripHtml(item.description)}`.toLowerCase();
   const signals = [];
 
+  if (/(fidji simo|leadership|steps down|departing|advisor|medical leave|no\. 2 executive)/.test(text)) {
+    signals.push("高管变动会影响 OpenAI 在 AGI、消费产品和商业化之间的资源分配，短期要看继任安排和关键团队稳定性。");
+  }
   if (/(agi|artificial general intelligence|large language models just|llms just)/.test(text)) {
     signals.push("这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。");
+  }
+  if (/(copilot|microsoft 365|office|workplace|productivity apps)/.test(text)) {
+    signals.push("这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。");
+  }
+  if (/(hidden space|concepts|mechanistic interpretability|inside large language models|puzzles over concepts)/.test(text)) {
+    signals.push("可解释性研究正在尝试把模型内部表征变成可观察对象，这会影响安全评估、调试方法和企业对黑箱风险的接受度。");
+  }
+  if (/(gpt[- ]?5\.6|new family of models|preferred model|cybersecurity)/.test(text)) {
+    signals.push("新模型发布不只看参数或跑分，还要看它在安全、工具调用和企业工作流里的稳定增益是否足以推动迁移。");
+  }
+  if (/(atlas|browser|chrome extension|agentic browsing|browser ambitions)/.test(text)) {
+    signals.push("AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。");
+  }
+  if (/(fundraise|fundraising|raise a .*round|startup|agent run|used its own ai agent)/.test(text)) {
+    signals.push("用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。");
+  }
+  if (/(musk|xai|host its models|model hosting|revenue at stake)/.test(text)) {
+    signals.push("模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。");
+  }
+  if (/(carbon emissions|sustainability|climate goals|electricity|power demand)/.test(text)) {
+    signals.push("AI 基础设施正在把云厂商的增长与能源压力绑在一起，后续要看算力扩张能否被电力、碳核算和效率提升消化。");
+  }
+  if (/(coding|code|bug|code migration|muse spark|developer|programming)/.test(text)) {
+    signals.push("AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。");
+  }
+  if (/(new york times|copyright|lawsuit|trial|evidence|datasets|publishers)/.test(text)) {
+    signals.push("版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。");
+  }
+  if (/(safe to release|frontier model|government.*safe|release evaluation|national security)/.test(text)) {
+    signals.push("前沿模型发布审查正在变成政府与实验室之间的制度问题，透明度不足会削弱外部对安全评估的信任。");
+  }
+  if (/(roi|return on investment|\$3 trillion|3 trillion|productivity|payoff)/.test(text)) {
+    signals.push("AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。");
   }
   if (/(robotics|physical ai|robots|real-world data)/.test(text)) {
     signals.push("机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。");
