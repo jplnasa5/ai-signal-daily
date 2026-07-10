@@ -1,0 +1,34 @@
+name: Create WeChat Daily Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_mode:
+        description: "draft creates a reviewable article; publish makes it public"
+        required: true
+        default: "draft"
+        type: choice
+        options:
+          - draft
+          - publish
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Create WeChat article
+        env:
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+          WECHAT_AUTHOR: ${{ vars.WECHAT_AUTHOR }}
+          WECHAT_SOURCE_URL: ${{ vars.WECHAT_SOURCE_URL }}
+          WECHAT_PUBLISH_MODE: ${{ inputs.publish_mode }}
+        run: node scripts/publish-wechat.mjs

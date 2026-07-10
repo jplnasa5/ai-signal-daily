@@ -63,6 +63,20 @@ X_BEARER_TOKEN=your_token node scripts/update-daily.mjs
 
 部署到 GitHub Pages、Vercel、Cloudflare Pages 等静态托管即可。
 
+## 微信公众号日报
+
+每天的数据更新后，GitHub Actions 会自动生成一篇公众号草稿。首次接入时，需要在 GitHub 仓库的 `Settings -> Secrets and variables -> Actions` 中添加：
+
+- `WECHAT_APP_ID`：公众号 AppID
+- `WECHAT_APP_SECRET`：公众号 AppSecret
+
+可选的仓库变量：
+
+- `WECHAT_AUTHOR`：文章署名，默认 `AI Signal Daily`
+- `WECHAT_SOURCE_URL`：文章底部“阅读原文”的目标地址
+
+默认只创建草稿，供你在公众号后台审核。需要自动公开发布时，可在 Actions 中手动运行 `Create WeChat Daily Draft` 并选择 `publish`。详细配置见 [WECHAT_DEPLOYMENT.md](./WECHAT_DEPLOYMENT.md)。
+
 ## 数据源调整
 
 编辑 `scripts/config/sources.json`：
@@ -76,4 +90,4 @@ X_BEARER_TOKEN=your_token node scripts/update-daily.mjs
 
 见 [DEPLOYMENT.md](./DEPLOYMENT.md)。推荐 Cloudflare Pages 或 Vercel；如果仓库公开，也可以直接使用 GitHub Pages。
 
-如果面向中国大陆用户，见 [ALIYUN_DEPLOYMENT.md](./ALIYUN_DEPLOYMENT.md)。未备案阶段建议先部署到阿里云 OSS 香港 Bucket；备案完成后再升级到中国内地 OSS + CDN。
+如果面向中国大陆用户，见 [ALIYUN_DEPLOYMENT.md](./ALIYUN_DEPLOYMENT.md)。阿里云方案目前已暂停，未备案阶段建议先部署到阿里云 OSS 香港 Bucket；备案完成后再升级到中国内地 OSS + CDN。

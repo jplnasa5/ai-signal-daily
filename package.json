@@ -7,7 +7,8 @@
     "start": "node scripts/serve.mjs",
     "serve": "node scripts/serve.mjs",
     "update": "node scripts/update-daily.mjs",
+    "publish:wechat": "node scripts/publish-wechat.mjs",
     "deploy:aliyun": "node scripts/deploy-aliyun-oss.mjs",
-    "check": "node --check assets/app.js && node --check scripts/update-daily.mjs && node --check scripts/serve.mjs && node --check scripts/deploy-aliyun-oss.mjs"
+    "check": "node --check assets/app.js && node --check scripts/update-daily.mjs && node --check scripts/serve.mjs && node --check scripts/deploy-aliyun-oss.mjs && node --check scripts/publish-wechat.mjs"
   }
 }

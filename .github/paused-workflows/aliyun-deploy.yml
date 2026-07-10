@@ -1,15 +1,8 @@
 name: Deploy Static Site to Aliyun OSS
 
+# Paused on 2026-07-10 while the project uses Vercel and WeChat publishing.
+# Move this file back to .github/workflows/ to re-enable the deployment workflow.
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "index.html"
-      - "assets/**"
-      - "data/**"
-      - "scripts/deploy-aliyun-oss.mjs"
-      - ".github/workflows/aliyun-deploy.yml"
   workflow_dispatch:
 
 jobs:

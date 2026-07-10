@@ -38,11 +38,11 @@ jobs:
             git push
           fi
 
-      - name: Deploy to Aliyun OSS
+      - name: Create WeChat daily draft
         env:
-          ALIYUN_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
-          ALIYUN_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
-          ALIYUN_OSS_BUCKET: ${{ secrets.ALIYUN_OSS_BUCKET }}
-          ALIYUN_OSS_ENDPOINT: ${{ secrets.ALIYUN_OSS_ENDPOINT }}
-          ALIYUN_OSS_PREFIX: ${{ secrets.ALIYUN_OSS_PREFIX }}
-        run: node scripts/deploy-aliyun-oss.mjs
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+          WECHAT_AUTHOR: ${{ vars.WECHAT_AUTHOR }}
+          WECHAT_SOURCE_URL: ${{ vars.WECHAT_SOURCE_URL }}
+          WECHAT_PUBLISH_MODE: draft
+        run: node scripts/publish-wechat.mjs
