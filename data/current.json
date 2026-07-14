@@ -1,8 +1,8 @@
 {
   "editionDate": "2026-07-14",
-  "generatedAt": "2026-07-14T01:06:10.301Z",
-  "windowStart": "2026-07-13T01:06:10.301Z",
-  "windowEnd": "2026-07-14T01:06:10.301Z",
+  "generatedAt": "2026-07-14T07:09:16.977Z",
+  "windowStart": "2026-07-13T07:09:16.977Z",
+  "windowEnd": "2026-07-14T07:09:16.977Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -12,8 +12,8 @@
   },
   "keylines": [
     {
-      "title": "投资是今日主轴",
-      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "商业是今日主轴",
+      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -26,23 +26,22 @@
   ],
   "stories": [
     {
-      "id": "techcrunch-ai-hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-",
-      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
+      "id": "techcrunch-ai-already-rich-already-successful-why-the-last-wave-of-tech-winners-",
+      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "summary": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-07-13T23:31:18.000Z",
-      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "publishedAt": "2026-07-14T02:46:42.000Z",
+      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
       "tags": [
-        "投资",
-        "Agent"
+        "商业"
       ]
     },
     {
@@ -65,10 +64,10 @@
       ]
     },
     {
-      "id": "techcrunch-ai-video-generation-startup-pixverse-raises-439m-valuation-soars-past",
-      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "id": "techcrunch-ai-hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-",
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
       "category": "investment",
       "categoryLabel": "投资",
       "impact": "high",
@@ -77,12 +76,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "publishedAt": "2026-07-13T23:31:18.000Z",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
       "tags": [
         "投资",
-        "多模态",
-        "企业 AI"
+        "Agent"
       ]
     },
     {
@@ -102,26 +100,6 @@
       "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
       "tags": [
         "大模型"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-sam-altman-s-space-data-center-trash-talk-is-what-most-experts-alr",
-      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
-      "summary": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\"",
-      "analysis": "模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-07-13T17:28:37.000Z",
-      "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
-      "tags": [
-        "投资",
-        "数据中心"
       ]
     },
     {
@@ -145,26 +123,6 @@
       ]
     },
     {
-      "id": "techcrunch-ai-the-wildest-allegations-in-apple-s-trade-secrets-lawsuit-against-o",
-      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
-      "summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews.",
-      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
-      "category": "policy",
-      "categoryLabel": "监管",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-07-13T18:22:10.000Z",
-      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
-      "tags": [
-        "监管",
-        "OpenAI"
-      ]
-    },
-    {
       "id": "the-verge-ai-siri-ai-is-already-changing-how-i-use-my-iphone",
       "title": "Siri AI is already changing how I use my iPhone",
       "summary": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it can live up to the hype Apple promised in the k...",
@@ -184,6 +142,26 @@
       ]
     },
     {
+      "id": "techcrunch-ai-sam-altman-s-space-data-center-trash-talk-is-what-most-experts-alr",
+      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
+      "summary": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\"",
+      "analysis": "模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-07-13T17:28:37.000Z",
+      "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
       "id": "the-verge-ai-the-6-wildest-claims-in-apple-s-lawsuit-against-openai",
       "title": "The 6 wildest claims in Apple’s lawsuit against OpenAI",
       "summary": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples.",
@@ -198,6 +176,26 @@
       "region": "US",
       "publishedAt": "2026-07-13T17:42:16.000Z",
       "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "tags": [
+        "监管",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-the-wildest-allegations-in-apple-s-trade-secrets-lawsuit-against-o",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-07-13T18:22:10.000Z",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
       "tags": [
         "监管",
         "OpenAI"
@@ -230,7 +228,7 @@
       "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
       "category": "business",
       "categoryLabel": "商业",
-      "impact": "medium",
+      "impact": "low",
       "source": {
         "name": "The Verge AI",
         "type": "Tech media"
@@ -249,7 +247,7 @@
       "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
       "category": "business",
       "categoryLabel": "商业",
-      "impact": "medium",
+      "impact": "low",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
