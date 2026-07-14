@@ -151,7 +151,12 @@ function slugify(value) {
 
 function isAiRelated(item) {
   const text = `${item.title} ${item.description}`.toLowerCase();
-  return AI_KEYWORDS.some((keyword) => text.includes(keyword));
+  return AI_KEYWORDS.some((keyword) => includesKeyword(text, keyword));
+}
+
+function includesKeyword(text, keyword) {
+  if (keyword === "ai") return /\bai\b/i.test(text);
+  return text.includes(keyword);
 }
 
 function categoryFor(item) {
@@ -187,7 +192,7 @@ function scoreItem(item, windowEnd) {
   const publishedAt = item.publishedAt ? new Date(item.publishedAt) : windowEnd;
   const recencyBoost = Math.max(0, 1 - hoursAgo(publishedAt, windowEnd) / 24);
   const text = `${item.title} ${item.description}`.toLowerCase();
-  const keywordBoost = AI_KEYWORDS.filter((keyword) => text.includes(keyword)).length * 0.08;
+  const keywordBoost = AI_KEYWORDS.filter((keyword) => includesKeyword(text, keyword)).length * 0.08;
   return (item.source.weight || 1) + recencyBoost + keywordBoost;
 }
 
