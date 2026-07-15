@@ -1,8 +1,8 @@
 {
   "editionDate": "2026-07-15",
-  "generatedAt": "2026-07-15T01:03:25.362Z",
-  "windowStart": "2026-07-14T01:03:25.362Z",
-  "windowEnd": "2026-07-15T01:03:25.362Z",
+  "generatedAt": "2026-07-15T07:16:19.450Z",
+  "windowStart": "2026-07-14T07:16:19.450Z",
+  "windowEnd": "2026-07-15T07:16:19.450Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -232,7 +232,7 @@
       "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
       "category": "business",
       "categoryLabel": "商业",
-      "impact": "medium",
+      "impact": "low",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
@@ -271,7 +271,7 @@
       "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
       "category": "business",
       "categoryLabel": "商业",
-      "impact": "medium",
+      "impact": "low",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
@@ -291,7 +291,7 @@
       "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
       "category": "research",
       "categoryLabel": "技术",
-      "impact": "medium",
+      "impact": "low",
       "source": {
         "name": "Google AI Blog",
         "type": "Official"
