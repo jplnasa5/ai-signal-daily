@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-10-10",
-  "generatedAt": "2026-10-10T02:48:53.130Z",
-  "windowStart": "2026-10-09T02:48:53.130Z",
-  "windowEnd": "2026-10-10T02:48:53.130Z",
+  "editionDate": "2026-10-11",
+  "generatedAt": "2026-10-11T02:17:30.916Z",
+  "windowStart": "2026-10-10T02:17:30.916Z",
+  "windowEnd": "2026-10-11T02:17:30.916Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 9
+    "investmentMentions": 8
   },
   "keylines": [
     {
-      "title": "商业是今日主轴",
-      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "投资是今日主轴",
+      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,124 @@
     }
   ],
   "stories": [
+    {
+      "id": "techcrunch-ai-microsoft-s-satya-nadella-says-ai-models-need-an-emergency-brake",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "the-verge-ai-satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "tags": [
+        "安全"
+      ]
+    },
+    {
+      "id": "the-verge-ai-distrokid-has-been-quietly-taking-down-songs-in-response-to-umg-law",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T21:23:38.000Z",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "tags": [
+        "监管"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-apple-discloses-deal-to-hire-team-and-license-tech-from-personaliz",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "summary": "Is Apple hoping to get into the AI-generated podcast business?",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "tags": [
+        "投资",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "tags": [
+        "投资",
+        "Anthropic",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-here-are-the-top-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
     {
       "id": "techcrunch-ai-anthropic-can-t-reliably-control-its-ai-agents-it-s-cutting-off-it",
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
@@ -38,7 +156,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T00:18:32.000Z",
+      "publishedAt": "2026-10-11T01:02:30.916Z",
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "tags": [
         "投资",
@@ -59,7 +177,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T22:22:18.000Z",
+      "publishedAt": "2026-10-10T23:47:30.916Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "tags": [
         "大模型",
@@ -79,7 +197,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T21:41:29.000Z",
+      "publishedAt": "2026-10-10T22:32:30.916Z",
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "tags": [
         "大模型"
@@ -98,7 +216,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T19:36:56.000Z",
+      "publishedAt": "2026-10-10T21:17:30.916Z",
       "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
       "tags": [
         "大模型",
@@ -118,7 +236,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T16:56:42.000Z",
+      "publishedAt": "2026-10-10T20:02:30.916Z",
       "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
       "tags": [
         "投资",
@@ -139,7 +257,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T16:53:02.000Z",
+      "publishedAt": "2026-10-10T18:47:30.916Z",
       "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
       "tags": [
         "投资",
@@ -160,7 +278,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T18:06:57.000Z",
+      "publishedAt": "2026-10-10T17:32:30.916Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
       "tags": [
         "商业",
@@ -180,128 +298,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-09T19:11:12.000Z",
+      "publishedAt": "2026-10-10T16:17:30.916Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
       "tags": [
         "商业",
         "OpenAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-trump-s-attempt-to-rename-ai-is-looking-awfully-artificial",
-      "title": "Trump’s attempt to rename AI is looking awfully artificial",
-      "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing sc...",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T17:23:28.000Z",
-      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-danu-robotics-fight-to-build-a-better-recycling-robot",
-      "title": "Danu Robotics’ fight to build a better recycling robot",
-      "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T16:45:00.000Z",
-      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-we-can-t-help-treating-ai-like-it-s-human-but-should-we",
-      "title": "We can’t help treating AI like it’s human. But should we?",
-      "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T16:40:14.000Z",
-      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-a16z-s-olivia-moore-on-the-state-of-consumer-ai",
-      "title": "a16z’s Olivia Moore on the state of consumer AI",
-      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T15:43:33.000Z",
-      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "mit-tr-ai-the-download-ai-s-refusal-problem-and-weight-loss-drug-side-effects",
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "MIT Technology Review",
-        "type": "Research media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T12:10:00.000Z",
-      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "openai-asana-cuts-model-costs-76x-in-browser-tests-with-gpt-6-1-sol",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "analysis": "AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "OpenAI News",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Agent",
-        "企业 AI"
       ]
     }
   ],
@@ -355,8 +356,8 @@
       "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
     },
     {
-      "title": "安全议题需要持续监测",
-      "text": "即使今天没有重大安全事件，Agent 普及也会放大身份权限和数据访问风险。"
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
     },
     {
       "title": "资本开支影响模型竞争",
