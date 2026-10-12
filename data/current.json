@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-10-11",
-  "generatedAt": "2026-10-11T02:17:30.916Z",
-  "windowStart": "2026-10-10T02:17:30.916Z",
-  "windowEnd": "2026-10-11T02:17:30.916Z",
+  "editionDate": "2026-10-12",
+  "generatedAt": "2026-10-12T02:41:35.708Z",
+  "windowStart": "2026-10-11T02:41:35.708Z",
+  "windowEnd": "2026-10-12T02:41:35.708Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 8
+    "investmentMentions": 6
   },
   "keylines": [
     {
-      "title": "投资是今日主轴",
-      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "大模型是今日主轴",
+      "text": "过去 24 小时里，大模型相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,84 @@
     }
   ],
   "stories": [
+    {
+      "id": "the-verge-ai-silicon-valley-is-falling-in-line-with-trump-s-attempt-to-rename-ai",
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-11T16:52:33.000Z",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-these-execs-think-voice-ai-hasn-t-reached-its-chatgpt-moment-yet",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "tags": [
+        "大模型",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-learning-to-use-local-ai-is-exciting-overwhelming-and-frustrating",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful mod...",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-11T04:53:46.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "tags": [
+        "大模型"
+      ]
+    },
     {
       "id": "techcrunch-ai-microsoft-s-satya-nadella-says-ai-models-need-an-emergency-brake",
       "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
@@ -38,7 +116,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "publishedAt": "2026-10-12T01:26:35.708Z",
       "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "tags": [
         "大模型"
@@ -57,7 +135,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "publishedAt": "2026-10-12T00:11:35.708Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
       "tags": [
         "安全"
@@ -76,7 +154,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T21:23:38.000Z",
+      "publishedAt": "2026-10-11T22:56:35.708Z",
       "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
       "tags": [
         "监管"
@@ -95,7 +173,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "publishedAt": "2026-10-11T21:41:35.708Z",
       "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
       "tags": [
         "投资",
@@ -115,7 +193,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "publishedAt": "2026-10-11T20:26:35.708Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
       "tags": [
         "投资",
@@ -136,7 +214,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "publishedAt": "2026-10-11T19:11:35.708Z",
       "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "tags": [
         "商业",
@@ -156,7 +234,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-11T01:02:30.916Z",
+      "publishedAt": "2026-10-11T17:56:35.708Z",
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "tags": [
         "投资",
@@ -177,7 +255,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T23:47:30.916Z",
+      "publishedAt": "2026-10-11T16:41:35.708Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "tags": [
         "大模型",
@@ -197,7 +275,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T22:32:30.916Z",
+      "publishedAt": "2026-10-11T15:26:35.708Z",
       "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "tags": [
         "大模型"
@@ -216,93 +294,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-10T21:17:30.916Z",
+      "publishedAt": "2026-10-11T14:11:35.708Z",
       "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
       "tags": [
         "大模型",
         "Anthropic"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-",
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-10T20:02:30.916Z",
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "tags": [
-        "投资",
-        "Agent",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
-      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-10T18:47:30.916Z",
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "tags": [
-        "投资",
-        "Agent",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "the-verge-ai-nikon-microscopic-video-competition-winner-disqualified-for-using-g",
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr.",
-      "analysis": "消费级影像产品正在把生成式 AI 做成低门槛编辑能力，真正考验的是效果稳定性、版权边界和用户是否高频使用。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-10T17:32:30.916Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-      "tags": [
-        "商业",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-pure-insanity-mathematicians-will-need-years-to-make-sense-of-opena",
-      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-      "summary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the fl...",
-      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-10T16:17:30.916Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-      "tags": [
-        "商业",
-        "OpenAI"
       ]
     }
   ],
