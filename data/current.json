@@ -1,8 +1,8 @@
 {
-  "editionDate": "2026-10-18",
-  "generatedAt": "2026-10-18T01:35:12.728Z",
-  "windowStart": "2026-10-17T01:35:12.728Z",
-  "windowEnd": "2026-10-18T01:35:12.728Z",
+  "editionDate": "2026-10-19",
+  "generatedAt": "2026-10-19T01:52:36.728Z",
+  "windowStart": "2026-10-18T01:52:36.728Z",
+  "windowEnd": "2026-10-19T01:52:36.728Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -26,6 +26,64 @@
   ],
   "stories": [
     {
+      "id": "techcrunch-ai-anthropic-says-it-s-committing-5-of-its-shares-to-a-public-benefit",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "tags": [
+        "商业",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "the-verge-ai-a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-18T18:28:10.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-disney-agrees-to-hire-the-majority-of-character-ai-s-workforce",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-18T16:30:00.000Z",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
       "id": "nvidia-blog-rtx-spark-ignites-global-celebration-as-new-windows-pcs-arrive",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
       "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
@@ -38,7 +96,7 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "publishedAt": "2026-10-19T00:37:36.728Z",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
       "tags": [
         "芯片",
@@ -58,7 +116,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T21:31:32.000Z",
+      "publishedAt": "2026-10-18T23:22:36.728Z",
       "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "tags": [
         "技术"
@@ -77,7 +135,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T18:48:08.000Z",
+      "publishedAt": "2026-10-18T22:07:36.728Z",
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "tags": [
         "大模型",
@@ -99,7 +157,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T20:21:19.000Z",
+      "publishedAt": "2026-10-18T20:52:36.728Z",
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "tags": [
         "商业",
@@ -119,7 +177,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T15:08:35.000Z",
+      "publishedAt": "2026-10-18T19:37:36.728Z",
       "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
       "tags": [
         "技术",
@@ -139,7 +197,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T15:04:36.000Z",
+      "publishedAt": "2026-10-18T18:22:36.728Z",
       "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
       "tags": [
         "商业"
@@ -158,7 +216,7 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-18T00:20:12.728Z",
+      "publishedAt": "2026-10-18T17:07:36.728Z",
       "url": "https://openai.com/index/itau-generative-ai",
       "tags": [
         "商业",
@@ -178,7 +236,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T23:05:12.728Z",
+      "publishedAt": "2026-10-18T15:52:36.728Z",
       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "tags": [
         "商业",
@@ -199,7 +257,7 @@
         "type": "Research media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T21:50:12.728Z",
+      "publishedAt": "2026-10-18T14:37:36.728Z",
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "tags": [
         "大模型"
@@ -218,7 +276,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T20:35:12.728Z",
+      "publishedAt": "2026-10-18T13:22:36.728Z",
       "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "tags": [
         "芯片",
@@ -239,69 +297,8 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-17T19:20:12.728Z",
+      "publishedAt": "2026-10-18T12:07:36.728Z",
       "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-17T18:05:12.728Z",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "tags": [
-        "商业",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-elorian-s-first-ai-model-wants-to-reason-with-images-not-just-abou",
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "analysis": "消费级影像产品正在把生成式 AI 做成低门槛编辑能力，真正考验的是效果稳定性、版权边界和用户是否高频使用。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-17T16:50:12.728Z",
-      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "tags": [
-        "投资",
-        "OpenAI",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-a-week-with-rtx-spark-everything-we-ve-learned-using-nvidia-s-new-l",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-17T15:35:12.728Z",
-      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
       "tags": [
         "芯片",
         "NVIDIA"
