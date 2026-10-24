@@ -1,8 +1,8 @@
 {
-  "editionDate": "2026-10-23",
-  "generatedAt": "2026-10-23T02:02:42.947Z",
-  "windowStart": "2026-10-22T02:02:42.947Z",
-  "windowEnd": "2026-10-23T02:02:42.947Z",
+  "editionDate": "2026-10-24",
+  "generatedAt": "2026-10-24T02:01:46.268Z",
+  "windowStart": "2026-10-23T02:01:46.268Z",
+  "windowEnd": "2026-10-24T02:01:46.268Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -12,8 +12,8 @@
   },
   "keylines": [
     {
-      "title": "大模型是今日主轴",
-      "text": "过去 24 小时里，大模型相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "芯片是今日主轴",
+      "text": "过去 24 小时里，芯片相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,245 @@
     }
   ],
   "stories": [
+    {
+      "id": "techcrunch-ai-openai-says-it-will-no-longer-train-its-ai-models-on-the-live-inte",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "analysis": "前沿模型发布审查正在变成政府与实验室之间的制度问题，透明度不足会削弱外部对安全评估的信任。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T23:05:49.000Z",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "tags": [
+        "安全",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-openai-now-trains-its-frontier-ai-models-with-no-internet-access",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents.",
+      "analysis": "语音交互的重点从“能说话”转向打断、停顿、轮次管理和实时性，这会直接影响助手在日常场景里的可用性。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "tags": [
+        "安全",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatgpt-users-part",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "tags": [
+        "大模型",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T21:59:19.000Z",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-jack-dorsey-s-block-made-an-ai-model-that-talks-to-you-like-an-awkw",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkw...",
+      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-f",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadershi...",
+      "analysis": "高管变动会影响 OpenAI 在 AGI、消费产品和商业化之间的资源分配，短期要看继任安排和关键团队稳定性。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T19:06:23.000Z",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "tags": [
+        "商业",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-now-google-says-it-might-use-your-gmail-and-google-photos-data-to-t",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features.",
+      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T16:52:55.000Z",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "tags": [
+        "监管",
+        "Google"
+      ]
+    },
+    {
+      "id": "the-verge-ai-meta-delays-new-business-terms-after-publisher-pushback-on-ai-scrap",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T14:47:41.000Z",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "tags": [
+        "技术",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "openai-securing-our-frontier-model-training-environment",
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "analysis": "前沿模型发布审查正在变成政府与实验室之间的制度问题，透明度不足会削弱外部对安全评估的信任。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "tags": [
+        "投资",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-retro-gaming-is-being-overrun-with-ai",
+      "title": "Retro gaming is being overrun with AI",
+      "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality.",
+      "analysis": "AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "low",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T13:52:15.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "tags": [
+        "商业",
+        "多模态"
+      ]
+    },
+    {
+      "id": "the-verge-ai-sure-let-s-smoosh-spacex-and-tesla-together-who-cares",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger!",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T11:28:50.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-p",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
     {
       "id": "nvidia-blog-kazakhstan-expands-compute-for-its-ai-future",
       "title": "Kazakhstan Expands Compute for Its AI Future",
@@ -38,7 +277,7 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T02:00:13.000Z",
+      "publishedAt": "2026-10-24T00:46:46.268Z",
       "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
       "tags": [
         "芯片",
@@ -59,255 +298,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T00:45:37.000Z",
+      "publishedAt": "2026-10-23T23:31:46.268Z",
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "tags": [
         "技术",
         "Agent"
-      ]
-    },
-    {
-      "id": "the-verge-ai-canva-s-first-ai-image-model-plans-designs-before-generating-them",
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T21:53:22.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Google",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-openai-anthropic-and-nvidia-had-record-lobbying-quarters",
-      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T17:36:30.000Z",
-      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "tags": [
-        "芯片",
-        "OpenAI",
-        "Anthropic",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-sure-let-s-smoosh-spacex-and-tesla-together-who-cares",
-      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger!",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T21:14:26.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-discord-now-formats-markdown-previews-right",
-      "title": "Discord now formats Markdown previews right",
-      "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T18:58:19.000Z",
-      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
-      "tags": [
-        "大模型",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T22:08:24.000Z",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "tags": [
-        "投资",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-in-meta-s-version-of-the-future-i-ll-have-my-muse-call-your-muse",
-      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T20:30:41.000Z",
-      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-      "tags": [
-        "商业",
-        "Agent"
-      ]
-    },
-    {
-      "id": "mit-tr-ai-designing-an-ai-serving-harness-built-to-last",
-      "title": "Designing an AI serving harness built to last",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift.",
-      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "MIT Technology Review",
-        "type": "Research media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T21:17:29.000Z",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "tags": [
-        "大模型",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "mit-tr-ai-the-foundations-of-scalable-ai",
-      "title": "The Foundations of Scalable AI",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "MIT Technology Review",
-        "type": "Research media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T18:48:04.000Z",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "tags": [
-        "大模型",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-wi",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T19:07:09.000Z",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "tags": [
-        "商业",
-        "Agent",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-meta-s-ai-could-still-scrape-news-sites-legal-experts-say",
-      "title": "Meta’s AI could still scrape news sites, legal experts say",
-      "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T20:32:05.000Z",
-      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "tags": [
-        "大模型",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-microsoft-says-its-ai-tool-is-better-than-doctors-at-diagnosing-con",
-      "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
-      "summary": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T19:48:37.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-makes-its-jev-competitor-widely-available-as-decision-model",
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "tags": [
-        "大模型",
-        "OpenAI"
       ]
     }
   ],
@@ -361,8 +356,8 @@
       "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
     },
     {
-      "title": "安全议题需要持续监测",
-      "text": "即使今天没有重大安全事件，Agent 普及也会放大身份权限和数据访问风险。"
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
     },
     {
       "title": "资本开支影响模型竞争",
@@ -370,7 +365,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "OpenAI、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
