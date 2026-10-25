@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-10-24",
-  "generatedAt": "2026-10-24T02:01:46.268Z",
-  "windowStart": "2026-10-23T02:01:46.268Z",
-  "windowEnd": "2026-10-24T02:01:46.268Z",
+  "editionDate": "2026-10-25",
+  "generatedAt": "2026-10-25T01:48:39.962Z",
+  "windowStart": "2026-10-24T01:48:39.962Z",
+  "windowEnd": "2026-10-25T01:48:39.962Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 7
+    "investmentMentions": 6
   },
   "keylines": [
     {
-      "title": "芯片是今日主轴",
-      "text": "过去 24 小时里，芯片相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "商业是今日主轴",
+      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,106 @@
     }
   ],
   "stories": [
+    {
+      "id": "the-verge-ai-blue-planet-iii-is-keeping-the-rough-edges-in-the-age-of-ai",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good...",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-24T21:29:12.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-the-ai-graveyard-a-running-list-of-projects-and-startups-that-didn",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-24T19:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "tags": [
+        "商业",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-forced-to-pick-grok-s-ai-model-chooses-republicans-openai-s-picks-",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "xAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-pennsylvania-will-require-labels-on-ai-generated-ads",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads.",
+      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-24T18:32:44.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "tags": [
+        "监管",
+        "多模态"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-here-are-the-top-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-24T14:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
     {
       "id": "techcrunch-ai-openai-says-it-will-no-longer-train-its-ai-models-on-the-live-inte",
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
@@ -38,7 +138,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T23:05:49.000Z",
+      "publishedAt": "2026-10-25T00:33:39.962Z",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "tags": [
         "安全",
@@ -58,7 +158,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "publishedAt": "2026-10-24T23:18:39.962Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
       "tags": [
         "安全",
@@ -78,7 +178,7 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "publishedAt": "2026-10-24T22:03:39.962Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "tags": [
         "大模型",
@@ -98,7 +198,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T21:59:19.000Z",
+      "publishedAt": "2026-10-24T20:48:39.962Z",
       "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
       "tags": [
         "芯片",
@@ -118,7 +218,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "publishedAt": "2026-10-24T19:33:39.962Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
       "tags": [
         "大模型"
@@ -137,7 +237,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T19:06:23.000Z",
+      "publishedAt": "2026-10-24T18:18:39.962Z",
       "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
       "tags": [
         "商业",
@@ -157,7 +257,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T16:52:55.000Z",
+      "publishedAt": "2026-10-24T17:03:39.962Z",
       "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
       "tags": [
         "监管",
@@ -177,7 +277,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T14:47:41.000Z",
+      "publishedAt": "2026-10-24T15:48:39.962Z",
       "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
       "tags": [
         "技术",
@@ -197,112 +297,11 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "publishedAt": "2026-10-24T14:33:39.962Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "tags": [
         "投资",
         "OpenAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-retro-gaming-is-being-overrun-with-ai",
-      "title": "Retro gaming is being overrun with AI",
-      "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality.",
-      "analysis": "AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "low",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-23T13:52:15.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "tags": [
-        "商业",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-sure-let-s-smoosh-spacex-and-tesla-together-who-cares",
-      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger!",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-23T11:28:50.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-p",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "nvidia-blog-kazakhstan-expands-compute-for-its-ai-future",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "NVIDIA Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-24T00:46:46.268Z",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-      "tags": [
-        "芯片",
-        "NVIDIA",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-left-alone-with-nothing-to-do-ai-agents-started-playing",
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
-      "category": "research",
-      "categoryLabel": "技术",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-23T23:31:46.268Z",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "tags": [
-        "技术",
-        "Agent"
       ]
     }
   ],
@@ -365,7 +364,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "OpenAI、Google、NVIDIA、xAI 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
