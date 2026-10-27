@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-10-26",
-  "generatedAt": "2026-10-26T01:50:22.927Z",
-  "windowStart": "2026-10-25T01:50:22.927Z",
-  "windowEnd": "2026-10-26T01:50:22.927Z",
+  "editionDate": "2026-10-27",
+  "generatedAt": "2026-10-27T02:29:12.030Z",
+  "windowStart": "2026-10-26T02:29:12.030Z",
+  "windowEnd": "2026-10-27T02:29:12.030Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 7
+    "investmentMentions": 9
   },
   "keylines": [
     {
-      "title": "商业是今日主轴",
-      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "投资是今日主轴",
+      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -26,9 +26,9 @@
   ],
   "stories": [
     {
-      "id": "techcrunch-ai-grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "id": "techcrunch-ai-cohere-says-alibaba-s-qwen-model-tried-to-send-a-file-to-beijing",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to t...",
       "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
       "category": "models",
       "categoryLabel": "大模型",
@@ -38,18 +38,200 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-25T21:31:16.000Z",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "publishedAt": "2026-10-27T01:12:21.000Z",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
       "tags": [
-        "大模型",
-        "xAI"
+        "大模型"
       ]
     },
     {
-      "id": "techcrunch-ai-ai-delivers-zero-financial-payoff-to-most-companies-apollo-economi",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
+      "id": "the-verge-ai-anthropic-is-burning-gas-to-feed-the-ai-boom",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T21:45:31.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "tags": [
+        "投资",
+        "Anthropic",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "openai-greptile-takes-bug-detection-beyond-code-review-with-gpt-6-astra",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "tags": [
+        "安全",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-openai-announces-three-big-science-discoveries-and-a-new-way-to-wor",
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and phys...",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T23:47:59.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "tags": [
+        "商业",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-anthropic-s-ipo-filing-lays-out-a-plan-to-revolutionize-every-area-",
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T17:37:44.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "tags": [
+        "投资",
+        "OpenAI",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "mit-tr-ai-will-the-real-anthropic-please-stand-up",
+      "title": "Will the real Anthropic please stand up",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus.",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "Research media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T17:45:43.000Z",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "tags": [
+        "投资",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "google-ai-our-newest-ai-quest-mapping-the-human-brain",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "tags": [
+        "技术",
+        "Google",
+        "多模态"
+      ]
+    },
+    {
+      "id": "the-verge-ai-kevin-roose-is-agi-pilled-why-aren-t-you",
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry.",
+      "analysis": "这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T20:01:42.000Z",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "openai-gpt-6-1-sol-helps-coderabbit-strengthen-security-across-complex-codebases",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T13:45:00.000Z",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "tags": [
+        "安全",
+        "OpenAI",
+        "Agent"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-realreal-won-t-let-ai-agents-hog-designer-clothing",
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site.",
+      "analysis": "政府、国安和监管相关内容会影响模型公司的销售边界、合规成本和跨境可用性。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-26T17:30:55.000Z",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-anthropic-s-ipo-filing-reveals-its-strategy-for-keeping-enterprise",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
       "category": "investment",
       "categoryLabel": "投资",
       "impact": "high",
@@ -58,194 +240,38 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-25T16:57:32.000Z",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "publishedAt": "2026-10-26T16:49:42.000Z",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
       "tags": [
-        "投资"
+        "投资",
+        "Anthropic",
+        "企业 AI"
       ]
     },
     {
-      "id": "techcrunch-ai-the-hottest-ai-wearables-and-gadgets-you-should-know-about",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "low",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T14:10:00.000Z",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "the-verge-ai-r-opensource-just-banned-ai-non-english-speakers-and-more",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "low",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T13:52:12.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "the-verge-ai-blue-planet-iii-is-keeping-the-rough-edges-in-the-age-of-ai",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good...",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-26T00:35:22.927Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-the-ai-graveyard-a-running-list-of-projects-and-startups-that-didn",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
-      "category": "business",
-      "categoryLabel": "商业",
+      "id": "techcrunch-ai-spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
       "impact": "medium",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-25T23:20:22.927Z",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "publishedAt": "2026-10-26T16:46:36.000Z",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
       "tags": [
-        "商业",
-        "OpenAI"
+        "芯片",
+        "NVIDIA"
       ]
     },
     {
-      "id": "techcrunch-ai-forced-to-pick-grok-s-ai-model-chooses-republicans-openai-s-picks-",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T22:05:22.927Z",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "xAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-pennsylvania-will-require-labels-on-ai-generated-ads",
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads.",
-      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
-      "category": "policy",
-      "categoryLabel": "监管",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T20:50:22.927Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "tags": [
-        "监管",
-        "多模态"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-here-are-the-top-ai-agents-that-can-live-in-your-text-messages",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T19:35:22.927Z",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "tags": [
-        "商业",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-says-it-will-no-longer-train-its-ai-models-on-the-live-inte",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "analysis": "前沿模型发布审查正在变成政府与实验室之间的制度问题，透明度不足会削弱外部对安全评估的信任。",
-      "category": "safety",
-      "categoryLabel": "安全",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T18:20:22.927Z",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "tags": [
-        "安全",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-openai-now-trains-its-frontier-ai-models-with-no-internet-access",
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents.",
-      "analysis": "语音交互的重点从“能说话”转向打断、停顿、轮次管理和实时性，这会直接影响助手在日常场景里的可用性。",
-      "category": "safety",
-      "categoryLabel": "安全",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T17:05:22.927Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "tags": [
-        "安全",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatgpt-users-part",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "id": "openai-working-with-academic-communities-to-build-scientific-understanding",
+      "title": "Working with academic communities to build scientific understanding",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
       "category": "models",
       "categoryLabel": "大模型",
@@ -255,50 +281,32 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-25T15:50:22.927Z",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "tags": [
         "大模型",
         "OpenAI"
       ]
     },
     {
-      "id": "techcrunch-ai-hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-25T14:35:22.927Z",
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-jack-dorsey-s-block-made-an-ai-model-that-talks-to-you-like-an-awkw",
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkw...",
-      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
-      "category": "models",
-      "categoryLabel": "大模型",
+      "id": "the-verge-ai-five-weird-details-from-anthropic-s-ipo-filing",
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the ri...",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
       "impact": "high",
       "source": {
         "name": "The Verge AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-25T13:20:22.927Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "publishedAt": "2026-10-26T17:10:23.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
       "tags": [
-        "大模型"
+        "投资",
+        "Anthropic",
+        "企业 AI"
       ]
     }
   ],
@@ -361,7 +369,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、NVIDIA、xAI 是否发布新的 API、价格或企业访问策略",
+    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
