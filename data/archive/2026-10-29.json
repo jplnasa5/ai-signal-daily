@@ -1,0 +1,427 @@
+{
+  "editionDate": "2026-10-29",
+  "generatedAt": "2026-10-29T02:56:52.940Z",
+  "windowStart": "2026-10-28T02:56:52.940Z",
+  "windowEnd": "2026-10-29T02:56:52.940Z",
+  "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
+  "metrics": {
+    "stories": 14,
+    "sources": 8,
+    "xSignals": 6,
+    "investmentMentions": 9
+  },
+  "keylines": [
+    {
+      "title": "商业是今日主轴",
+      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+    },
+    {
+      "title": "Grok / xAI带动 X 讨论",
+      "text": "X 热点更偏实时体验和争议观点，适合用来捕捉模型、产品和安全事件的早期信号。"
+    },
+    {
+      "title": "基础设施仍是深层变量",
+      "text": "芯片、数据中心、电力和推理成本会持续决定 AI 产品能否从发布会走向规模化商业。"
+    }
+  ],
+  "stories": [
+    {
+      "id": "the-verge-ai-google-launches-gemini-4-carbon-with-a-significant-leap-in-cybersec",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity.",
+      "analysis": "新模型发布不只看参数或跑分，还要看它在安全、工具调用和企业工作流里的稳定增益是否足以推动迁移。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T20:03:00.000Z",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "tags": [
+        "安全",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Agent"
+      ]
+    },
+    {
+      "id": "mit-tr-ai-creating-ai-value-with-enterprise-context",
+      "title": "Creating AI value with enterprise context",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools.",
+      "analysis": "同听同说和实时翻译会把语音模型从聊天功能推向会议、跨语言沟通和现场协作场景。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "Research media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T20:32:02.000Z",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "tags": [
+        "商业",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-adam-mosseri-says-negativity-around-ai-is-going-to-get-worse",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and...",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T23:05:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-google-expands-ai-search-ads-globally-as-core-ad-growth-slows",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T21:48:37.000Z",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "tags": [
+        "商业",
+        "Google"
+      ]
+    },
+    {
+      "id": "nvidia-blog-thin-light-and-built-for-everything-nvidia-rtx-spark-windows-laptops",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "NVIDIA Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T15:00:46.000Z",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "tags": [
+        "芯片",
+        "NVIDIA",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-microsoft-recorded-10-billion-in-revenue-from-openai",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T21:34:30.000Z",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "tags": [
+        "商业",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row",
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T21:25:30.000Z",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-anthropic-just-launched-tools-to-show-companies-what-their-ai-spen",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T19:19:58.000Z",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "tags": [
+        "投资",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-mor",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "tags": [
+        "大模型",
+        "Google",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "openai-openai-and-servicenow-expand-partnership-across-enterprise-workflows",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-voters-in-texas-agree-they-hate-data-centers",
+      "title": "Voters in Texas agree: They hate data centers",
+      "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T19:17:42.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-microsoft-is-ending-copilot-support-on-smart-tvs",
+      "title": "Microsoft is ending Copilot support on smart TVs",
+      "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, accor...",
+      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T18:36:26.000Z",
+      "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T15:53:52.000Z",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "tags": [
+        "技术"
+      ]
+    },
+    {
+      "id": "the-verge-ai-meta-says-it-ll-probably-delay-its-controversial-new-business-terms",
+      "title": "Meta says it’ll probably delay its controversial new business terms again",
+      "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-28T16:15:30.000Z",
+      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "tags": [
+        "监管",
+        "企业 AI"
+      ]
+    }
+  ],
+  "xTrends": [
+    {
+      "topic": "Grok / xAI",
+      "category": "大模型",
+      "heat": 92,
+      "signal": "模型能力、价格和开发者可用性是主要讨论点，很多帖子直接拿它和 OpenAI、Anthropic 对比。",
+      "url": "https://x.com/search?q=Grok%20xAI"
+    },
+    {
+      "topic": "OpenAI GPT",
+      "category": "大模型",
+      "heat": 88,
+      "signal": "讨论集中在新模型分层、企业访问节奏、推理质量和产品体验是否有实质提升。",
+      "url": "https://x.com/search?q=OpenAI%20GPT"
+    },
+    {
+      "topic": "Agentic Ransomware",
+      "category": "安全",
+      "heat": 81,
+      "signal": "安全研究者和 CISO 圈层关注 AI Agent 是否会把攻击链自动化到新的速度。",
+      "url": "https://x.com/search?q=agentic%20ransomware"
+    },
+    {
+      "topic": "AI Data Centers",
+      "category": "投资",
+      "heat": 78,
+      "signal": "投资者讨论长期数据中心租约、电力容量和 AI 基建股是否进入过热区间。",
+      "url": "https://x.com/search?q=AI%20data%20center"
+    },
+    {
+      "topic": "Galaxy AI",
+      "category": "商业",
+      "heat": 70,
+      "signal": "手机厂商把 AI 拉回端侧入口之争，争议点是功能是否真能改变日常使用。",
+      "url": "https://x.com/search?q=Galaxy%20AI"
+    },
+    {
+      "topic": "AI Video",
+      "category": "多模态",
+      "heat": 67,
+      "signal": "创作者圈层继续测试视频生成、图像模型和工作流自动化，版权与真实性问题伴随升温。",
+      "url": "https://x.com/search?q=AI%20video"
+    }
+  ],
+  "briefings": [
+    {
+      "title": "从热度看真实优先级",
+      "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
+    },
+    {
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
+    },
+    {
+      "title": "资本开支影响模型竞争",
+      "text": "算力合同、芯片供应和数据中心成本正在成为 AI 公司竞争力的一部分。"
+    }
+  ],
+  "watchlist": [
+    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
+    "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
+    "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
+  ],
+  "sources": [
+    {
+      "name": "X Platform",
+      "type": "Social signals",
+      "region": "Global",
+      "url": "https://x.com/search?q=AI"
+    },
+    {
+      "name": "OpenAI News",
+      "type": "Official",
+      "region": "US",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "The Verge AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "TechCrunch AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "MIT Technology Review",
+      "type": "Research media",
+      "region": "US",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ]
+}
