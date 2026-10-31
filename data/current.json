@@ -1,14 +1,14 @@
 {
-  "editionDate": "2026-10-30",
-  "generatedAt": "2026-10-30T03:01:02.868Z",
-  "windowStart": "2026-10-29T03:01:02.868Z",
-  "windowEnd": "2026-10-30T03:01:02.868Z",
+  "editionDate": "2026-10-31",
+  "generatedAt": "2026-10-31T02:48:17.749Z",
+  "windowStart": "2026-10-30T02:48:17.749Z",
+  "windowEnd": "2026-10-31T02:48:17.749Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 10
+    "investmentMentions": 11
   },
   "keylines": [
     {
@@ -26,28 +26,73 @@
   ],
   "stories": [
     {
-      "id": "techcrunch-ai-you-don-t-need-to-believe-in-a-god-to-get-a-religious-exemption-fr",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
+      "id": "techcrunch-ai-nvidia-weighs-playing-the-cosigner-for-nscale-s-ai-data-center-in-",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "high",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T01:20:48.000Z",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "publishedAt": "2026-10-31T01:20:05.000Z",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "tags": [
-        "商业"
+        "芯片",
+        "NVIDIA",
+        "数据中心"
       ]
     },
     {
-      "id": "techcrunch-ai-aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "id": "the-verge-ai-the-biggest-names-in-ai-are-backing-a-new-way-to-opt-out-of-scrapin",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T22:04:23.000Z",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "tags": [
+        "监管",
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ]
+    },
+    {
+      "id": "the-verge-ai-sam-altman-says-it-s-better-for-ram-to-be-in-a-data-center-than-on-",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T20:48:43.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "tags": [
+        "投资",
+        "OpenAI",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-last-minute-halloween-costumes-for-tech-nerds",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
       "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
       "category": "business",
       "categoryLabel": "商业",
@@ -57,57 +102,37 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-29T23:42:22.000Z",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "publishedAt": "2026-10-30T21:26:59.000Z",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "tags": [
         "商业",
-        "企业 AI"
+        "Agent"
       ]
     },
     {
-      "id": "the-verge-ai-ai-has-come-for-arizona-s-water",
-      "title": "AI has come for Arizona’s water",
-      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
+      "id": "techcrunch-ai-ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
       "source": {
-        "name": "The Verge AI",
+        "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-29T23:03:22.000Z",
-      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "publishedAt": "2026-10-30T22:56:13.000Z",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "tags": [
-        "大模型"
+        "商业"
       ]
     },
     {
-      "id": "openai-an-updated-model-spec-for-more-capable-and-beneficial-ai",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "OpenAI News",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "url": "https://openai.com/index/updated-model-spec",
-      "tags": [
-        "大模型",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-backed-thrive-holdings-acquires-adt",
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
+      "id": "techcrunch-ai-intel-s-stock-crashes-knocking-12b-from-government-s-stake",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "analysis": "政府、国安和监管相关内容会影响模型公司的销售边界、合规成本和跨境可用性。",
       "category": "investment",
       "categoryLabel": "投资",
       "impact": "high",
@@ -116,190 +141,171 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-29T19:56:19.000Z",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "publishedAt": "2026-10-30T21:54:34.000Z",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-anthropic-expected-to-receive-high-junk-rating-from-credit-agencie",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T21:52:03.000Z",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "tags": [
         "投资",
-        "OpenAI",
+        "Anthropic",
         "企业 AI"
       ]
     },
     {
-      "id": "nvidia-blog-into-the-omniverse-how-developers-turn-ideas-into-simulations-with-f",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "id": "the-verge-ai-wikipedia-s-operator-says-a-bad-ai-copyright-ruling-could-threaten-",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating tha...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T16:08:56.000Z",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "tags": [
+        "监管"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-cracks-are-emerging-in-the-ai-spending-boom",
+      "title": "Cracks are emerging in the AI spending boom",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "analysis": "AI 基础设施正在把云厂商的增长与能源压力绑在一起，后续要看算力扩张能否被电力、碳核算和效率提升消化。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T21:17:40.000Z",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "tags": [
+        "商业",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-google-s-satellite-ai-server-transmits-its-first-response-to-earth",
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 mode...",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
       "category": "chips",
       "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "tags": [
+        "芯片",
+        "Google"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-zest-s-new-ai-agent-finds-restaurants-and-books-reservations-over-",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T17:47:12.000Z",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-google-s-first-data-center-satellite-is-online-and-writing-poetry",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "tags": [
+        "投资",
+        "Google",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "openai-making-it-easier-for-websites-to-express-ai-training-preferences",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "tags": [
+        "技术",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "nvidia-blog-things-that-go-beep-in-the-night-agentic-ai-joins-the-search-for-ext",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a maj...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "business",
+      "categoryLabel": "商业",
       "impact": "medium",
       "source": {
         "name": "NVIDIA Blog",
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-10-29T16:00:35.000Z",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "publishedAt": "2026-10-30T15:00:10.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
       "tags": [
-        "芯片",
-        "NVIDIA",
+        "商业",
         "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-us-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
-      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T16:42:32.000Z",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-as-search-traffic-dries-up-reddit-announces-it-s-shifting-to-a-log",
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T20:08:31.000Z",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "tags": [
-        "商业",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-rivian-expands-joint-venture-with-vw-to-include-ai-assistant",
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T20:05:47.000Z",
-      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "tags": [
-        "投资"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
-      "analysis": "消费级影像产品正在把生成式 AI 做成低门槛编辑能力，真正考验的是效果稳定性、版权边界和用户是否高频使用。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T19:14:36.000Z",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "tags": [
-        "商业",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-you-can-generate-and-edit-google-docs-files-directly-in-gemini-chat",
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T18:45:31.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "tags": [
-        "大模型",
-        "Google"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-worl",
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United St...",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T16:21:00.000Z",
-      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
-      "analysis": "语音模型的体验差距会体现在延迟、自然停顿、噪声环境和多轮上下文保持，而不是单句生成质量。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T17:54:38.000Z",
-      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "the-verge-ai-anthropic-is-asking-wall-street-to-believe-in-agi",
-      "title": "Anthropic is asking Wall Street to believe in AGI",
-      "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1.",
-      "analysis": "这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-29T13:47:56.000Z",
-      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "tags": [
-        "芯片",
-        "Anthropic"
       ]
     }
   ],
