@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-10-31",
-  "generatedAt": "2026-10-31T02:48:17.749Z",
-  "windowStart": "2026-10-30T02:48:17.749Z",
-  "windowEnd": "2026-10-31T02:48:17.749Z",
+  "editionDate": "2026-11-01",
+  "generatedAt": "2026-11-01T02:40:38.933Z",
+  "windowStart": "2026-10-31T02:40:38.933Z",
+  "windowEnd": "2026-11-01T02:40:38.933Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 11
+    "investmentMentions": 12
   },
   "keylines": [
     {
-      "title": "商业是今日主轴",
-      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "投资是今日主轴",
+      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,86 @@
     }
   ],
   "stories": [
+    {
+      "id": "techcrunch-ai-judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "analysis": "模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-31T21:17:03.000Z",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "tags": [
+        "投资",
+        "xAI",
+        "数据中心",
+        "监管"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-apple-ceo-says-the-company-doesn-t-want-to-ship-ai-for-ai-s-sake",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-31T21:41:00.000Z",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-reportedly-lowers-funding-target-for-new-round",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-31T16:12:55.000Z",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "tags": [
+        "投资",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-i-built-an-ai-tamagotchi-before-meta-could",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-10-31T16:09:02.000Z",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "tags": [
+        "商业"
+      ]
+    },
     {
       "id": "techcrunch-ai-nvidia-weighs-playing-the-cosigner-for-nscale-s-ai-data-center-in-",
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
@@ -38,7 +118,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T01:20:05.000Z",
+      "publishedAt": "2026-11-01T01:25:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "tags": [
         "芯片",
@@ -59,7 +139,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T22:04:23.000Z",
+      "publishedAt": "2026-11-01T00:10:38.933Z",
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "tags": [
         "监管",
@@ -81,7 +161,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T20:48:43.000Z",
+      "publishedAt": "2026-10-31T22:55:38.933Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
       "tags": [
         "投资",
@@ -102,7 +182,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T21:26:59.000Z",
+      "publishedAt": "2026-10-31T21:40:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "tags": [
         "商业",
@@ -122,7 +202,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T22:56:13.000Z",
+      "publishedAt": "2026-10-31T20:25:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "tags": [
         "商业"
@@ -141,7 +221,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T21:54:34.000Z",
+      "publishedAt": "2026-10-31T19:10:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "tags": [
         "投资"
@@ -160,7 +240,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T21:52:03.000Z",
+      "publishedAt": "2026-10-31T17:55:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "tags": [
         "投资",
@@ -181,7 +261,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T16:08:56.000Z",
+      "publishedAt": "2026-10-31T16:40:38.933Z",
       "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
       "tags": [
         "监管"
@@ -200,7 +280,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T21:17:40.000Z",
+      "publishedAt": "2026-10-31T15:25:38.933Z",
       "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "tags": [
         "商业",
@@ -220,92 +300,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "publishedAt": "2026-10-31T14:10:38.933Z",
       "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
       "tags": [
         "芯片",
         "Google"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-zest-s-new-ai-agent-finds-restaurants-and-books-reservations-over-",
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-30T17:47:12.000Z",
-      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-      "tags": [
-        "商业",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-google-s-first-data-center-satellite-is-online-and-writing-poetry",
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "tags": [
-        "投资",
-        "Google",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "openai-making-it-easier-for-websites-to-express-ai-training-preferences",
-      "title": "Making it easier for websites to express AI training preferences",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
-      "category": "research",
-      "categoryLabel": "技术",
-      "impact": "medium",
-      "source": {
-        "name": "OpenAI News",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-30T09:30:00.000Z",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "tags": [
-        "技术",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "nvidia-blog-things-that-go-beep-in-the-night-agentic-ai-joins-the-search-for-ext",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a maj...",
-      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "NVIDIA Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-30T15:00:10.000Z",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "tags": [
-        "商业",
-        "Agent"
       ]
     }
   ],
@@ -368,7 +367,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "OpenAI、Anthropic、Google、NVIDIA、xAI 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
