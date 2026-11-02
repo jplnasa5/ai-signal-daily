@@ -1,8 +1,8 @@
 {
-  "editionDate": "2026-11-01",
-  "generatedAt": "2026-11-01T02:40:38.933Z",
-  "windowStart": "2026-10-31T02:40:38.933Z",
-  "windowEnd": "2026-11-01T02:40:38.933Z",
+  "editionDate": "2026-11-02",
+  "generatedAt": "2026-11-02T02:49:14.433Z",
+  "windowStart": "2026-11-01T02:49:14.433Z",
+  "windowEnd": "2026-11-02T02:49:14.433Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -26,6 +26,46 @@
   ],
   "stories": [
     {
+      "id": "techcrunch-ai-openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-01T21:55:23.000Z",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "tags": [
+        "投资",
+        "OpenAI",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-01T20:57:58.000Z",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
       "id": "techcrunch-ai-judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-",
       "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
       "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
@@ -38,7 +78,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T21:17:03.000Z",
+      "publishedAt": "2026-11-02T01:34:14.433Z",
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "tags": [
         "投资",
@@ -60,7 +100,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T21:41:00.000Z",
+      "publishedAt": "2026-11-02T00:19:14.433Z",
       "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
       "tags": [
         "商业"
@@ -79,7 +119,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T16:12:55.000Z",
+      "publishedAt": "2026-11-01T23:04:14.433Z",
       "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "tags": [
         "投资",
@@ -99,7 +139,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T16:09:02.000Z",
+      "publishedAt": "2026-11-01T21:49:14.433Z",
       "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
       "tags": [
         "商业"
@@ -118,7 +158,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-01T01:25:38.933Z",
+      "publishedAt": "2026-11-01T20:34:14.433Z",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "tags": [
         "芯片",
@@ -139,7 +179,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-01T00:10:38.933Z",
+      "publishedAt": "2026-11-01T19:19:14.433Z",
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "tags": [
         "监管",
@@ -161,7 +201,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T22:55:38.933Z",
+      "publishedAt": "2026-11-01T18:04:14.433Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
       "tags": [
         "投资",
@@ -182,7 +222,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T21:40:38.933Z",
+      "publishedAt": "2026-11-01T16:49:14.433Z",
       "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "tags": [
         "商业",
@@ -202,7 +242,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T20:25:38.933Z",
+      "publishedAt": "2026-11-01T15:34:14.433Z",
       "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "tags": [
         "商业"
@@ -221,7 +261,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T19:10:38.933Z",
+      "publishedAt": "2026-11-01T14:19:14.433Z",
       "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "tags": [
         "投资"
@@ -240,7 +280,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T17:55:38.933Z",
+      "publishedAt": "2026-11-01T13:04:14.433Z",
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "tags": [
         "投资",
@@ -261,50 +301,10 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-10-31T16:40:38.933Z",
+      "publishedAt": "2026-11-01T11:49:14.433Z",
       "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
       "tags": [
         "监管"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-cracks-are-emerging-in-the-ai-spending-boom",
-      "title": "Cracks are emerging in the AI spending boom",
-      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
-      "analysis": "AI 基础设施正在把云厂商的增长与能源压力绑在一起，后续要看算力扩张能否被电力、碳核算和效率提升消化。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-31T15:25:38.933Z",
-      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-      "tags": [
-        "商业",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "the-verge-ai-google-s-satellite-ai-server-transmits-its-first-response-to-earth",
-      "title": "Google’s satellite AI server transmits its first response to Earth",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 mode...",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-10-31T14:10:38.933Z",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "tags": [
-        "芯片",
-        "Google"
       ]
     }
   ],
