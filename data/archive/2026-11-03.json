@@ -1,0 +1,425 @@
+{
+  "editionDate": "2026-11-03",
+  "generatedAt": "2026-11-03T04:05:47.587Z",
+  "windowStart": "2026-11-02T04:05:47.587Z",
+  "windowEnd": "2026-11-03T04:05:47.587Z",
+  "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
+  "metrics": {
+    "stories": 14,
+    "sources": 8,
+    "xSignals": 6,
+    "investmentMentions": 6
+  },
+  "keylines": [
+    {
+      "title": "商业是今日主轴",
+      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+    },
+    {
+      "title": "Grok / xAI带动 X 讨论",
+      "text": "X 热点更偏实时体验和争议观点，适合用来捕捉模型、产品和安全事件的早期信号。"
+    },
+    {
+      "title": "基础设施仍是深层变量",
+      "text": "芯片、数据中心、电力和推理成本会持续决定 AI 产品能否从发布会走向规模化商业。"
+    }
+  ],
+  "stories": [
+    {
+      "id": "techcrunch-ai-google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-pers",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T03:30:00.000Z",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "tags": [
+        "商业",
+        "Google"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-y-combinator-s-garry-tan-uses-ai-agents-so-much-he-spends-up-to-20",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents.",
+      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T00:35:52.000Z",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "tags": [
+        "安全",
+        "Agent"
+      ]
+    },
+    {
+      "id": "the-verge-ai-anthropic-clamps-down-on-claude-s-ai-video-game-clones",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T22:57:16.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "多模态"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-anthropic-warns-that-it-s-very-close-to-rsi-capability-aka-self-bu",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T22:14:50.000Z",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "tags": [
+        "技术",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-apple-may-try-to-increase-revenue-by-doing-something-with-third-pa",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T01:49:52.000Z",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-trajectory-raises-45m-to-make-ai-model-training-accessible-to-nont",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "summary": "The one-year-old startup is now valued at $300 million.",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T23:13:53.000Z",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "openai-preparing-our-next-security-sprint-to-harden-openai",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "analysis": "政府、国安和监管相关内容会影响模型公司的销售边界、合规成本和跨境可用性。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "tags": [
+        "安全",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-new-york-times-sues-brave-web-browser-for-ai-scraping-and-bypas",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported...",
+      "analysis": "AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T23:20:01.000Z",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "tags": [
+        "监管"
+      ]
+    },
+    {
+      "id": "google-ai-the-latest-ai-news-we-announced-in-october-2026",
+      "title": "The latest AI news we announced in October 2026",
+      "summary": "Here are Google’s latest AI updates from October 2026",
+      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "tags": [
+        "技术",
+        "Google",
+        "多模态"
+      ]
+    },
+    {
+      "id": "openai-rewarding-defenders-with-bigger-bug-bounties",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "tags": [
+        "安全",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "mit-tr-ai-raising-the-quality-of-insights-in-agentic-analytics",
+      "title": "Raising the quality of insights in agentic analytics",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "Research media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "tags": [
+        "商业",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-openai-pitches-data-center-power-plants-as-a-way-to-protect-nearby-",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme wea...",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T18:01:30.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "tags": [
+        "投资",
+        "OpenAI",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-new-york-times-and-other-outlets-sue-web-browser-brave-over-allege",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "analysis": "AI 浏览器路线正在从独立产品转向插件和桌面入口，关键是 Agent 浏览是否能在权限、安全和可控性上站稳。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T19:19:17.000Z",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "tags": [
+        "监管",
+        "Anthropic",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "openai-scaling-git-at-openai",
+      "title": "Scaling Git at OpenAI",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "OpenAI News",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "tags": [
+        "商业",
+        "OpenAI"
+      ]
+    }
+  ],
+  "xTrends": [
+    {
+      "topic": "Grok / xAI",
+      "category": "大模型",
+      "heat": 92,
+      "signal": "模型能力、价格和开发者可用性是主要讨论点，很多帖子直接拿它和 OpenAI、Anthropic 对比。",
+      "url": "https://x.com/search?q=Grok%20xAI"
+    },
+    {
+      "topic": "OpenAI GPT",
+      "category": "大模型",
+      "heat": 88,
+      "signal": "讨论集中在新模型分层、企业访问节奏、推理质量和产品体验是否有实质提升。",
+      "url": "https://x.com/search?q=OpenAI%20GPT"
+    },
+    {
+      "topic": "Agentic Ransomware",
+      "category": "安全",
+      "heat": 81,
+      "signal": "安全研究者和 CISO 圈层关注 AI Agent 是否会把攻击链自动化到新的速度。",
+      "url": "https://x.com/search?q=agentic%20ransomware"
+    },
+    {
+      "topic": "AI Data Centers",
+      "category": "投资",
+      "heat": 78,
+      "signal": "投资者讨论长期数据中心租约、电力容量和 AI 基建股是否进入过热区间。",
+      "url": "https://x.com/search?q=AI%20data%20center"
+    },
+    {
+      "topic": "Galaxy AI",
+      "category": "商业",
+      "heat": 70,
+      "signal": "手机厂商把 AI 拉回端侧入口之争，争议点是功能是否真能改变日常使用。",
+      "url": "https://x.com/search?q=Galaxy%20AI"
+    },
+    {
+      "topic": "AI Video",
+      "category": "多模态",
+      "heat": 67,
+      "signal": "创作者圈层继续测试视频生成、图像模型和工作流自动化，版权与真实性问题伴随升温。",
+      "url": "https://x.com/search?q=AI%20video"
+    }
+  ],
+  "briefings": [
+    {
+      "title": "从热度看真实优先级",
+      "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
+    },
+    {
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
+    },
+    {
+      "title": "资本开支影响模型竞争",
+      "text": "算力合同、芯片供应和数据中心成本正在成为 AI 公司竞争力的一部分。"
+    }
+  ],
+  "watchlist": [
+    "OpenAI、Anthropic、Google 是否发布新的 API、价格或企业访问策略",
+    "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
+    "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
+    "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
+  ],
+  "sources": [
+    {
+      "name": "X Platform",
+      "type": "Social signals",
+      "region": "Global",
+      "url": "https://x.com/search?q=AI"
+    },
+    {
+      "name": "OpenAI News",
+      "type": "Official",
+      "region": "US",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "The Verge AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "TechCrunch AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "MIT Technology Review",
+      "type": "Research media",
+      "region": "US",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ]
+}
