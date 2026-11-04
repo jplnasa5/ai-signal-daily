@@ -1,0 +1,416 @@
+{
+  "editionDate": "2026-11-04",
+  "generatedAt": "2026-11-04T03:23:43.656Z",
+  "windowStart": "2026-11-03T03:23:43.656Z",
+  "windowEnd": "2026-11-04T03:23:43.656Z",
+  "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
+  "metrics": {
+    "stories": 14,
+    "sources": 8,
+    "xSignals": 6,
+    "investmentMentions": 11
+  },
+  "keylines": [
+    {
+      "title": "商业是今日主轴",
+      "text": "过去 24 小时里，商业相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+    },
+    {
+      "title": "Grok / xAI带动 X 讨论",
+      "text": "X 热点更偏实时体验和争议观点，适合用来捕捉模型、产品和安全事件的早期信号。"
+    },
+    {
+      "title": "基础设施仍是深层变量",
+      "text": "芯片、数据中心、电力和推理成本会持续决定 AI 产品能否从发布会走向规模化商业。"
+    }
+  ],
+  "stories": [
+    {
+      "id": "techcrunch-ai-anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T22:41:03.000Z",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "tags": [
+        "大模型",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-biggest-modding-site-in-pc-gaming-is-taking-a-stance-on-ai",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part...",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-04T00:42:54.000Z",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "the-verge-ai-please-stop-asking-me-when-the-ai-bubble-will-pop",
+      "title": "Please stop asking me when the AI bubble will pop",
+      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T23:37:45.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "the-verge-ai-google-is-entirely-disabling-search-in-schools-that-don-t-want-ai",
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "summary": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T20:54:30.000Z",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "tags": [
+        "大模型",
+        "Google"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T22:19:53.000Z",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-ted-schlein-s-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "analysis": "新模型发布不只看参数或跑分，还要看它在安全、工具调用和企业工作流里的稳定增益是否足以推动迁移。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T21:43:08.000Z",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-su",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T19:34:43.000Z",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "the-verge-ai-openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T18:38:47.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Google"
+      ]
+    },
+    {
+      "id": "the-verge-ai-apple-starts-giving-siri-ai-access-to-third-party-apps",
+      "title": "Apple starts giving Siri AI access to third-party apps",
+      "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice as...",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T20:19:55.000Z",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "nvidia-blog-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "NVIDIA Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T16:00:45.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-netflix-s-new-ai-discover-tab-helps-you-find-something-to-watch-ba",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T18:42:16.000Z",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-anthropic-is-still-grappling-with-the-economics-of-compute",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "summary": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T17:07:01.000Z",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "tags": [
+        "商业",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "the-verge-ai-netflix-will-show-you-themed-recommendations-through-a-new-ai-disco",
+      "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+      "summary": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T17:28:14.000Z",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-google-will-let-schools-disable-its-ai-tools-but-not-without-sacri",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-03T16:30:34.000Z",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "tags": [
+        "商业",
+        "Google"
+      ]
+    }
+  ],
+  "xTrends": [
+    {
+      "topic": "Grok / xAI",
+      "category": "大模型",
+      "heat": 92,
+      "signal": "模型能力、价格和开发者可用性是主要讨论点，很多帖子直接拿它和 OpenAI、Anthropic 对比。",
+      "url": "https://x.com/search?q=Grok%20xAI"
+    },
+    {
+      "topic": "OpenAI GPT",
+      "category": "大模型",
+      "heat": 88,
+      "signal": "讨论集中在新模型分层、企业访问节奏、推理质量和产品体验是否有实质提升。",
+      "url": "https://x.com/search?q=OpenAI%20GPT"
+    },
+    {
+      "topic": "Agentic Ransomware",
+      "category": "安全",
+      "heat": 81,
+      "signal": "安全研究者和 CISO 圈层关注 AI Agent 是否会把攻击链自动化到新的速度。",
+      "url": "https://x.com/search?q=agentic%20ransomware"
+    },
+    {
+      "topic": "AI Data Centers",
+      "category": "投资",
+      "heat": 78,
+      "signal": "投资者讨论长期数据中心租约、电力容量和 AI 基建股是否进入过热区间。",
+      "url": "https://x.com/search?q=AI%20data%20center"
+    },
+    {
+      "topic": "Galaxy AI",
+      "category": "商业",
+      "heat": 70,
+      "signal": "手机厂商把 AI 拉回端侧入口之争，争议点是功能是否真能改变日常使用。",
+      "url": "https://x.com/search?q=Galaxy%20AI"
+    },
+    {
+      "topic": "AI Video",
+      "category": "多模态",
+      "heat": 67,
+      "signal": "创作者圈层继续测试视频生成、图像模型和工作流自动化，版权与真实性问题伴随升温。",
+      "url": "https://x.com/search?q=AI%20video"
+    }
+  ],
+  "briefings": [
+    {
+      "title": "从热度看真实优先级",
+      "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
+    },
+    {
+      "title": "安全议题需要持续监测",
+      "text": "即使今天没有重大安全事件，Agent 普及也会放大身份权限和数据访问风险。"
+    },
+    {
+      "title": "资本开支影响模型竞争",
+      "text": "算力合同、芯片供应和数据中心成本正在成为 AI 公司竞争力的一部分。"
+    }
+  ],
+  "watchlist": [
+    "OpenAI、Anthropic、Google 是否发布新的 API、价格或企业访问策略",
+    "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
+    "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
+    "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
+  ],
+  "sources": [
+    {
+      "name": "X Platform",
+      "type": "Social signals",
+      "region": "Global",
+      "url": "https://x.com/search?q=AI"
+    },
+    {
+      "name": "OpenAI News",
+      "type": "Official",
+      "region": "US",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "The Verge AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "TechCrunch AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "MIT Technology Review",
+      "type": "Research media",
+      "region": "US",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ]
+}
