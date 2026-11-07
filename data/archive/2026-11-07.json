@@ -1,0 +1,422 @@
+{
+  "editionDate": "2026-11-07",
+  "generatedAt": "2026-11-07T03:16:49.187Z",
+  "windowStart": "2026-11-06T03:16:49.187Z",
+  "windowEnd": "2026-11-07T03:16:49.187Z",
+  "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
+  "metrics": {
+    "stories": 14,
+    "sources": 8,
+    "xSignals": 6,
+    "investmentMentions": 13
+  },
+  "keylines": [
+    {
+      "title": "投资是今日主轴",
+      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+    },
+    {
+      "title": "Grok / xAI带动 X 讨论",
+      "text": "X 热点更偏实时体验和争议观点，适合用来捕捉模型、产品和安全事件的早期信号。"
+    },
+    {
+      "title": "基础设施仍是深层变量",
+      "text": "芯片、数据中心、电力和推理成本会持续决定 AI 产品能否从发布会走向规模化商业。"
+    }
+  ],
+  "stories": [
+    {
+      "id": "techcrunch-ai-crusoe-sells-troubled-wyoming-data-center-project-to-google",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T01:40:28.000Z",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "tags": [
+        "投资",
+        "Google",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-china-reportedly-recruited-ai-exec-to-spy-on-jensen-huang",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T23:00:44.000Z",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-openai-valued-at-1-25-trillion-as-rival-anthropic-nears-its-ipo",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T23:46:18.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "tags": [
+        "投资",
+        "OpenAI",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trilli",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T22:53:46.000Z",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "tags": [
+        "投资",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-all-the-latest-updates-on-ai-data-centers",
+      "title": "All the latest updates on AI data centers",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on p...",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T20:03:32.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-ai-is-the-new-dating-dealbreaker",
+      "title": "AI is the new dating dealbreaker",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T21:51:59.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "nvidia-blog-how-nvidia-open-source-tools-are-helping-researchers-build-next-gene",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
+      "analysis": "训练数据来源从网页文本扩展到游戏和仿真环境，意味着模型公司会继续寻找更结构化、更可控的数据供给。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "NVIDIA Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T16:00:35.000Z",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-age",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T18:44:20.000Z",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T18:00:00.000Z",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-meta-s-muse-ai-can-create-custom-spaces-for-the-version-of-the-app-",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and mor...",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T20:00:43.000Z",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T17:23:52.000Z",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-w",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T18:44:38.000Z",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "tags": [
+        "安全"
+      ]
+    },
+    {
+      "id": "the-verge-ai-big-tech-lost-big-in-the-2026-election",
+      "title": "Big Tech lost big in the 2026 election",
+      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T17:09:01.000Z",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-i",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-06T15:54:47.000Z",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "tags": [
+        "投资",
+        "Anthropic"
+      ]
+    }
+  ],
+  "xTrends": [
+    {
+      "topic": "Grok / xAI",
+      "category": "大模型",
+      "heat": 92,
+      "signal": "模型能力、价格和开发者可用性是主要讨论点，很多帖子直接拿它和 OpenAI、Anthropic 对比。",
+      "url": "https://x.com/search?q=Grok%20xAI"
+    },
+    {
+      "topic": "OpenAI GPT",
+      "category": "大模型",
+      "heat": 88,
+      "signal": "讨论集中在新模型分层、企业访问节奏、推理质量和产品体验是否有实质提升。",
+      "url": "https://x.com/search?q=OpenAI%20GPT"
+    },
+    {
+      "topic": "Agentic Ransomware",
+      "category": "安全",
+      "heat": 81,
+      "signal": "安全研究者和 CISO 圈层关注 AI Agent 是否会把攻击链自动化到新的速度。",
+      "url": "https://x.com/search?q=agentic%20ransomware"
+    },
+    {
+      "topic": "AI Data Centers",
+      "category": "投资",
+      "heat": 78,
+      "signal": "投资者讨论长期数据中心租约、电力容量和 AI 基建股是否进入过热区间。",
+      "url": "https://x.com/search?q=AI%20data%20center"
+    },
+    {
+      "topic": "Galaxy AI",
+      "category": "商业",
+      "heat": 70,
+      "signal": "手机厂商把 AI 拉回端侧入口之争，争议点是功能是否真能改变日常使用。",
+      "url": "https://x.com/search?q=Galaxy%20AI"
+    },
+    {
+      "topic": "AI Video",
+      "category": "多模态",
+      "heat": 67,
+      "signal": "创作者圈层继续测试视频生成、图像模型和工作流自动化，版权与真实性问题伴随升温。",
+      "url": "https://x.com/search?q=AI%20video"
+    }
+  ],
+  "briefings": [
+    {
+      "title": "从热度看真实优先级",
+      "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
+    },
+    {
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
+    },
+    {
+      "title": "资本开支影响模型竞争",
+      "text": "算力合同、芯片供应和数据中心成本正在成为 AI 公司竞争力的一部分。"
+    }
+  ],
+  "watchlist": [
+    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
+    "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
+    "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
+  ],
+  "sources": [
+    {
+      "name": "X Platform",
+      "type": "Social signals",
+      "region": "Global",
+      "url": "https://x.com/search?q=AI"
+    },
+    {
+      "name": "OpenAI News",
+      "type": "Official",
+      "region": "US",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "The Verge AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "TechCrunch AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "MIT Technology Review",
+      "type": "Research media",
+      "region": "US",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ]
+}
