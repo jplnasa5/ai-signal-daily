@@ -1,8 +1,8 @@
 {
-  "editionDate": "2026-11-07",
-  "generatedAt": "2026-11-07T03:16:49.187Z",
-  "windowStart": "2026-11-06T03:16:49.187Z",
-  "windowEnd": "2026-11-07T03:16:49.187Z",
+  "editionDate": "2026-11-08",
+  "generatedAt": "2026-11-08T02:46:15.637Z",
+  "windowStart": "2026-11-07T02:46:15.637Z",
+  "windowEnd": "2026-11-08T02:46:15.637Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -26,6 +26,104 @@
   ],
   "stories": [
     {
+      "id": "techcrunch-ai-after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "analysis": "模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-megaspeed-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-us-let-nvidia-sell-chips-to-an-empty-office-in-china",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips.",
+      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-nyt-cooking-s-ai-assistant-saved-my-weeknight-chicken-but-almost-ru",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "low",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T15:47:15.000Z",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "the-verge-ai-ai-broke-the-cybersecurity-world-what-s-next",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life.",
+      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-07T05:43:11.000Z",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "tags": [
+        "安全"
+      ]
+    },
+    {
       "id": "techcrunch-ai-crusoe-sells-troubled-wyoming-data-center-project-to-google",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "summary": "The deal highlights the challenges of developing massive AI data centers.",
@@ -38,7 +136,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T01:40:28.000Z",
+      "publishedAt": "2026-11-08T01:31:15.637Z",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "tags": [
         "投资",
@@ -59,7 +157,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T23:00:44.000Z",
+      "publishedAt": "2026-11-08T00:16:15.637Z",
       "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
       "tags": [
         "芯片",
@@ -79,7 +177,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T23:46:18.000Z",
+      "publishedAt": "2026-11-07T23:01:15.637Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
       "tags": [
         "投资",
@@ -100,7 +198,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T22:53:46.000Z",
+      "publishedAt": "2026-11-07T21:46:15.637Z",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "tags": [
         "投资",
@@ -120,7 +218,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T20:03:32.000Z",
+      "publishedAt": "2026-11-07T20:31:15.637Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
       "tags": [
         "投资",
@@ -140,7 +238,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T21:51:59.000Z",
+      "publishedAt": "2026-11-07T19:16:15.637Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
       "tags": [
         "投资"
@@ -159,7 +257,7 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T16:00:35.000Z",
+      "publishedAt": "2026-11-07T18:01:15.637Z",
       "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "tags": [
         "芯片",
@@ -179,7 +277,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T18:44:20.000Z",
+      "publishedAt": "2026-11-07T16:46:15.637Z",
       "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "tags": [
         "商业",
@@ -199,109 +297,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-06T18:00:00.000Z",
+      "publishedAt": "2026-11-07T15:31:15.637Z",
       "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
       "tags": [
         "投资",
         "数据中心"
-      ]
-    },
-    {
-      "id": "the-verge-ai-meta-s-muse-ai-can-create-custom-spaces-for-the-version-of-the-app-",
-      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and mor...",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-06T20:00:43.000Z",
-      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-06T17:23:52.000Z",
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "tags": [
-        "投资",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-w",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
-      "category": "safety",
-      "categoryLabel": "安全",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-06T18:44:38.000Z",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "tags": [
-        "安全"
-      ]
-    },
-    {
-      "id": "the-verge-ai-big-tech-lost-big-in-the-2026-election",
-      "title": "Big Tech lost big in the 2026 election",
-      "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-06T17:09:01.000Z",
-      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-      "tags": [
-        "投资",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-i",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-06T15:54:47.000Z",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "tags": [
-        "投资",
-        "Anthropic"
       ]
     }
   ],
