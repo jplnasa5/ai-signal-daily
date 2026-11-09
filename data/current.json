@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-11-08",
-  "generatedAt": "2026-11-08T02:46:15.637Z",
-  "windowStart": "2026-11-07T02:46:15.637Z",
-  "windowEnd": "2026-11-08T02:46:15.637Z",
+  "editionDate": "2026-11-09",
+  "generatedAt": "2026-11-09T03:03:56.431Z",
+  "windowStart": "2026-11-08T03:03:56.431Z",
+  "windowEnd": "2026-11-09T03:03:56.431Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 13
+    "investmentMentions": 12
   },
   "keylines": [
     {
-      "title": "投资是今日主轴",
-      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "芯片是今日主轴",
+      "text": "过去 24 小时里，芯片相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -25,6 +25,126 @@
     }
   ],
   "stories": [
+    {
+      "id": "the-verge-ai-here-s-the-full-text-of-jensen-huang-s-memo-to-nvidia",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "tags": [
+        "芯片",
+        "NVIDIA",
+        "Agent"
+      ]
+    },
+    {
+      "id": "the-verge-ai-nvidia-is-investigating-jensen-huang-s-relationship-with-a-chinese-",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-09T02:24:39.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-apple-is-racing-to-make-siri-more-agentic",
+      "title": "Apple is racing to make Siri more agentic",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "tags": [
+        "商业",
+        "OpenAI",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-nvidia-will-investigate-ceo-jensen-huang-s-relationship-with-possi",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-08T21:00:11.000Z",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-nyt-cooking-s-ai-assistant-saved-my-weeknight-chicken-but-almost-ru",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-08T19:41:47.000Z",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "the-verge-ai-elvis-and-eminem-rights-holders-are-suing-suno",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyr...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-08T17:23:19.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "tags": [
+        "监管"
+      ]
+    },
     {
       "id": "techcrunch-ai-after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data",
       "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
@@ -38,7 +158,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "publishedAt": "2026-11-09T01:48:56.431Z",
       "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "tags": [
         "投资",
@@ -58,7 +178,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "publishedAt": "2026-11-09T00:33:56.431Z",
       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
       "tags": [
         "芯片",
@@ -78,30 +198,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "publishedAt": "2026-11-08T23:18:56.431Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
       "tags": [
         "芯片",
         "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-nyt-cooking-s-ai-assistant-saved-my-weeknight-chicken-but-almost-ru",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "low",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T15:47:15.000Z",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "tags": [
-        "商业"
       ]
     },
     {
@@ -117,7 +218,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T05:43:11.000Z",
+      "publishedAt": "2026-11-08T20:48:56.431Z",
       "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
       "tags": [
         "安全"
@@ -136,7 +237,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-08T01:31:15.637Z",
+      "publishedAt": "2026-11-08T19:33:56.431Z",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "tags": [
         "投资",
@@ -157,7 +258,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-08T00:16:15.637Z",
+      "publishedAt": "2026-11-08T18:18:56.431Z",
       "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
       "tags": [
         "芯片",
@@ -177,7 +278,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T23:01:15.637Z",
+      "publishedAt": "2026-11-08T17:03:56.431Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
       "tags": [
         "投资",
@@ -198,110 +299,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-07T21:46:15.637Z",
+      "publishedAt": "2026-11-08T15:48:56.431Z",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "tags": [
         "投资",
         "OpenAI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-all-the-latest-updates-on-ai-data-centers",
-      "title": "All the latest updates on AI data centers",
-      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on p...",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T20:31:15.637Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "tags": [
-        "投资",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "the-verge-ai-ai-is-the-new-dating-dealbreaker",
-      "title": "AI is the new dating dealbreaker",
-      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T19:16:15.637Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "tags": [
-        "投资"
-      ]
-    },
-    {
-      "id": "nvidia-blog-how-nvidia-open-source-tools-are-helping-researchers-build-next-gene",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
-      "analysis": "训练数据来源从网页文本扩展到游戏和仿真环境，意味着模型公司会继续寻找更结构化、更可控的数据供给。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "NVIDIA Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T18:01:15.637Z",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-age",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T16:46:15.637Z",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "tags": [
-        "商业",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-how-a-blue-wave-midterm-might-reshape-the-ai-industry",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-07T15:31:15.637Z",
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "tags": [
-        "投资",
-        "数据中心"
       ]
     }
   ],
