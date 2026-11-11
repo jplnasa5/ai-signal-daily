@@ -1,0 +1,435 @@
+{
+  "editionDate": "2026-11-11",
+  "generatedAt": "2026-11-11T03:11:55.112Z",
+  "windowStart": "2026-11-10T03:11:55.112Z",
+  "windowEnd": "2026-11-11T03:11:55.112Z",
+  "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
+  "metrics": {
+    "stories": 14,
+    "sources": 8,
+    "xSignals": 6,
+    "investmentMentions": 6
+  },
+  "keylines": [
+    {
+      "title": "大模型是今日主轴",
+      "text": "过去 24 小时里，大模型相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+    },
+    {
+      "title": "Grok / xAI带动 X 讨论",
+      "text": "X 热点更偏实时体验和争议观点，适合用来捕捉模型、产品和安全事件的早期信号。"
+    },
+    {
+      "title": "基础设施仍是深层变量",
+      "text": "芯片、数据中心、电力和推理成本会持续决定 AI 产品能否从发布会走向规模化商业。"
+    }
+  ],
+  "stories": [
+    {
+      "id": "nvidia-blog-how-ai-helps-recyclers-turn-mixed-waste-into-reusable-material",
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "NVIDIA Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T03:00:20.000Z",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-anthropic-face-new-oversight-as-new-york-s-ai-safety-law-ta",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T20:52:13.000Z",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "tags": [
+        "安全",
+        "OpenAI",
+        "Anthropic",
+        "监管"
+      ]
+    },
+    {
+      "id": "google-ai-gemini-intelligence-new-features-on-more-devices",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "tags": [
+        "大模型",
+        "Google",
+        "多模态"
+      ]
+    },
+    {
+      "id": "the-verge-ai-google-releases-gemini-4-carbon-with-agent-swarm-feature",
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago.",
+      "analysis": "新模型发布不只看参数或跑分，还要看它在安全、工具调用和企业工作流里的稳定增益是否足以推动迁移。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T15:30:28.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "tags": [
+        "安全",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T21:08:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "tags": [
+        "投资",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-disco",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T19:03:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "tags": [
+        "大模型",
+        "Anthropic",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-us-is-winning-the-ai-race-jensen-huang-could-have-blown-it",
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with pres...",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T19:31:58.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-rolls-out-new-business-profiles-making-chatgpt-just-a-littl",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T18:49:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Google",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-indie-game-community-is-in-disarray-over-ai-and-big-walk",
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T19:06:22.000Z",
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "the-verge-ai-anthropic-has-its-own-ai-powered-office-suite-now",
+      "title": "Anthropic has its own AI-powered office suite now",
+      "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies.",
+      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T15:13:38.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Anthropic",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the co...",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T19:57:52.000Z",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "tags": [
+        "投资",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "the-verge-ai-chatgpt-is-getting-verified-ai-business-agents",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping.",
+      "analysis": "这条新闻属于模型与产品能力信号，后续重点是它能否带来开发者迁移、企业采用或明确的成本优势。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T16:34:41.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "google-ai-we-re-bringing-adobe-s-creative-and-productivity-tools-closer-to-your-",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "tags": [
+        "大模型",
+        "Google",
+        "多模态"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-google-broadens-its-ai-hardware-portfolio-with-two-new-specialized",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-10T15:54:08.000Z",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "tags": [
+        "芯片",
+        "Google"
+      ]
+    }
+  ],
+  "xTrends": [
+    {
+      "topic": "Grok / xAI",
+      "category": "大模型",
+      "heat": 92,
+      "signal": "模型能力、价格和开发者可用性是主要讨论点，很多帖子直接拿它和 OpenAI、Anthropic 对比。",
+      "url": "https://x.com/search?q=Grok%20xAI"
+    },
+    {
+      "topic": "OpenAI GPT",
+      "category": "大模型",
+      "heat": 88,
+      "signal": "讨论集中在新模型分层、企业访问节奏、推理质量和产品体验是否有实质提升。",
+      "url": "https://x.com/search?q=OpenAI%20GPT"
+    },
+    {
+      "topic": "Agentic Ransomware",
+      "category": "安全",
+      "heat": 81,
+      "signal": "安全研究者和 CISO 圈层关注 AI Agent 是否会把攻击链自动化到新的速度。",
+      "url": "https://x.com/search?q=agentic%20ransomware"
+    },
+    {
+      "topic": "AI Data Centers",
+      "category": "投资",
+      "heat": 78,
+      "signal": "投资者讨论长期数据中心租约、电力容量和 AI 基建股是否进入过热区间。",
+      "url": "https://x.com/search?q=AI%20data%20center"
+    },
+    {
+      "topic": "Galaxy AI",
+      "category": "商业",
+      "heat": 70,
+      "signal": "手机厂商把 AI 拉回端侧入口之争，争议点是功能是否真能改变日常使用。",
+      "url": "https://x.com/search?q=Galaxy%20AI"
+    },
+    {
+      "topic": "AI Video",
+      "category": "多模态",
+      "heat": 67,
+      "signal": "创作者圈层继续测试视频生成、图像模型和工作流自动化，版权与真实性问题伴随升温。",
+      "url": "https://x.com/search?q=AI%20video"
+    }
+  ],
+  "briefings": [
+    {
+      "title": "从热度看真实优先级",
+      "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
+    },
+    {
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
+    },
+    {
+      "title": "资本开支影响模型竞争",
+      "text": "算力合同、芯片供应和数据中心成本正在成为 AI 公司竞争力的一部分。"
+    }
+  ],
+  "watchlist": [
+    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
+    "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
+    "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
+  ],
+  "sources": [
+    {
+      "name": "X Platform",
+      "type": "Social signals",
+      "region": "Global",
+      "url": "https://x.com/search?q=AI"
+    },
+    {
+      "name": "OpenAI News",
+      "type": "Official",
+      "region": "US",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "The Verge AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "TechCrunch AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "MIT Technology Review",
+      "type": "Research media",
+      "region": "US",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "type": "Official",
+      "region": "US",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "type": "Tech media",
+      "region": "US",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    }
+  ]
+}
