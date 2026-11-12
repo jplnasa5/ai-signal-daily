@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-11-11",
-  "generatedAt": "2026-11-11T03:11:55.112Z",
-  "windowStart": "2026-11-10T03:11:55.112Z",
-  "windowEnd": "2026-11-11T03:11:55.112Z",
+  "editionDate": "2026-11-12",
+  "generatedAt": "2026-11-12T04:23:39.047Z",
+  "windowStart": "2026-11-11T04:23:39.047Z",
+  "windowEnd": "2026-11-12T04:23:39.047Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 6
+    "investmentMentions": 9
   },
   "keylines": [
     {
-      "title": "大模型是今日主轴",
-      "text": "过去 24 小时里，大模型相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "芯片是今日主轴",
+      "text": "过去 24 小时里，芯片相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -26,281 +26,49 @@
   ],
   "stories": [
     {
-      "id": "nvidia-blog-how-ai-helps-recyclers-turn-mixed-waste-into-reusable-material",
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-      "analysis": "机器人方向的关键是用低成本数据补足真实世界采集瓶颈，游戏、仿真和交互轨迹可能成为物理 AI 的训练燃料。",
-      "category": "business",
-      "categoryLabel": "商业",
+      "id": "openai-gilbert-tobin-rethinks-the-business-of-law-with-ai",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
+      "category": "policy",
+      "categoryLabel": "监管",
       "impact": "medium",
       "source": {
-        "name": "NVIDIA Blog",
+        "name": "OpenAI News",
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-11-11T03:00:20.000Z",
-      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-anthropic-face-new-oversight-as-new-york-s-ai-safety-law-ta",
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "safety",
-      "categoryLabel": "安全",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T20:52:13.000Z",
-      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "tags": [
-        "安全",
-        "OpenAI",
-        "Anthropic",
-        "监管"
-      ]
-    },
-    {
-      "id": "google-ai-gemini-intelligence-new-features-on-more-devices",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "Google AI Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T19:00:00.000Z",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "tags": [
-        "大模型",
-        "Google",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-google-releases-gemini-4-carbon-with-agent-swarm-feature",
-      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago.",
-      "analysis": "新模型发布不只看参数或跑分，还要看它在安全、工具调用和企业工作流里的稳定增益是否足以推动迁移。",
-      "category": "safety",
-      "categoryLabel": "安全",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T15:30:28.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "tags": [
-        "安全",
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-openai-acquires-odessia-travel-startup-created-by-sonder-founder",
-      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T21:08:52.000Z",
-      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "tags": [
-        "投资",
-        "OpenAI"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-disco",
-      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T19:03:52.000Z",
-      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-      "tags": [
-        "大模型",
-        "Anthropic",
+        "监管",
         "企业 AI"
       ]
     },
     {
-      "id": "the-verge-ai-the-us-is-winning-the-ai-race-jensen-huang-could-have-blown-it",
-      "title": "The US is winning the AI race. Jensen Huang could have blown it",
-      "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with pres...",
+      "id": "techcrunch-ai-who-could-replace-jensen-huang-a-highly-unscientific-list-of-possi",
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
       "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
       "category": "chips",
       "categoryLabel": "芯片",
       "impact": "medium",
       "source": {
-        "name": "The Verge AI",
+        "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-10T19:31:58.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "publishedAt": "2026-11-12T03:13:10.000Z",
+      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
       "tags": [
         "芯片",
         "NVIDIA"
       ]
     },
     {
-      "id": "techcrunch-ai-openai-rolls-out-new-business-profiles-making-chatgpt-just-a-littl",
-      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T18:49:52.000Z",
-      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Google",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "the-verge-ai-the-indie-game-community-is-in-disarray-over-ai-and-big-walk",
-      "title": "The indie game community is in disarray over AI and Big Walk",
-      "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T19:06:22.000Z",
-      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "the-verge-ai-anthropic-has-its-own-ai-powered-office-suite-now",
-      "title": "Anthropic has its own AI-powered office suite now",
-      "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies.",
-      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T15:13:38.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Anthropic",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the co...",
-      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T19:57:52.000Z",
-      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "tags": [
-        "投资",
-        "Anthropic"
-      ]
-    },
-    {
-      "id": "the-verge-ai-chatgpt-is-getting-verified-ai-business-agents",
-      "title": "ChatGPT is getting verified AI ‘Business Agents’",
-      "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping.",
-      "analysis": "这条新闻属于模型与产品能力信号，后续重点是它能否带来开发者迁移、企业采用或明确的成本优势。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T16:34:41.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Agent",
-        "企业 AI"
-      ]
-    },
-    {
-      "id": "google-ai-we-re-bringing-adobe-s-creative-and-productivity-tools-closer-to-your-",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "Google AI Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "tags": [
-        "大模型",
-        "Google",
-        "多模态"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-google-broadens-its-ai-hardware-portfolio-with-two-new-specialized",
-      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-      "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "id": "techcrunch-ai-jensen-huang-accused-of-having-another-affair-with-an-nvidia-exec",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
       "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
       "category": "chips",
       "categoryLabel": "芯片",
@@ -310,11 +78,234 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-10T15:54:08.000Z",
-      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "publishedAt": "2026-11-11T23:17:05.000Z",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
       "tags": [
         "芯片",
-        "Google"
+        "NVIDIA",
+        "Agent"
+      ]
+    },
+    {
+      "id": "the-verge-ai-nvidia-is-reportedly-preparing-to-fire-jensen-huang",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chines...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-12T00:55:40.000Z",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-the-unfolding-jensen-huang-scandal-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "analysis": "前沿模型发布审查正在变成政府与实验室之间的制度问题，透明度不足会削弱外部对安全评估的信任。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T23:50:00.000Z",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "tags": [
+        "安全",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-nvidia-s-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T23:28:45.000Z",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-united-won-t-let-your-ai-agent-book-your-flight",
+      "title": "United won’t let your AI agent book your flight",
+      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns.",
+      "analysis": "这条新闻属于监管与公共部门信号，后续重点是政策是否进入执行层面，以及对企业采购和模型发布的影响。",
+      "category": "policy",
+      "categoryLabel": "监管",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T21:54:21.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "tags": [
+        "监管",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-why-the-data-center-you-dread-might-never-even-be-built",
+      "title": "Why the data center you dread might never even be built",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.",
+      "analysis": "AI 基础设施正在把云厂商的增长与能源压力绑在一起，后续要看算力扩张能否被电力、碳核算和效率提升消化。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T20:15:15.000Z",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "tags": [
+        "芯片",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-",
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.",
+      "analysis": "AI 基础设施正在把云厂商的增长与能源压力绑在一起，后续要看算力扩张能否被电力、碳核算和效率提升消化。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T20:02:14.000Z",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "tags": [
+        "芯片",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "google-ai-gemini-decisions-api-fast-calibrated-multimodal-decisions",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "tags": [
+        "大模型",
+        "Google",
+        "多模态"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-with-720m-round-britain-s-fractile-gets-a-leg-up-in-the-race-for-a",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T19:34:55.000Z",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T19:54:00.000Z",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "tags": [
+        "投资",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy",
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T19:22:22.000Z",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "google-ai-try-tabletop-customizable-collaborative-spaces-for-groups-to-plan-play",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "analysis": "这条新闻属于技术路线信号，后续重点是可复现性、工程成本和是否能被开源或商业系统快速吸收。",
+      "category": "research",
+      "categoryLabel": "技术",
+      "impact": "medium",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "tags": [
+        "技术",
+        "Google",
+        "多模态"
       ]
     }
   ],
@@ -377,7 +368,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
