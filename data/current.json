@@ -1,14 +1,14 @@
 {
-  "editionDate": "2026-11-18",
-  "generatedAt": "2026-11-18T04:44:57.356Z",
-  "windowStart": "2026-11-17T04:44:57.356Z",
-  "windowEnd": "2026-11-18T04:44:57.356Z",
+  "editionDate": "2026-11-19",
+  "generatedAt": "2026-11-19T04:35:19.422Z",
+  "windowStart": "2026-11-18T04:35:19.422Z",
+  "windowEnd": "2026-11-19T04:35:19.422Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 9
+    "investmentMentions": 8
   },
   "keylines": [
     {
@@ -26,89 +26,132 @@
   ],
   "stories": [
     {
-      "id": "the-verge-ai-not-even-sam-altman-is-safe-from-ai-deepfakes-on-instagram",
-      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives.",
-      "analysis": "这条新闻更像模型供应链信号：OpenAI 与 Microsoft 的产品绑定会影响企业办公入口、模型议价权和未来替换成本。",
-      "category": "safety",
-      "categoryLabel": "安全",
+      "id": "the-verge-ai-remember-the-frontier-ai-pause-chip-companies-don-t-either",
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T16:25:30.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "tags": [
+        "芯片",
+        "OpenAI",
+        "Anthropic",
+        "Agent",
+        "监管"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-t",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T22:58:11.000Z",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "tags": [
+        "大模型",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "the-verge-ai-the-nation-s-largest-school-districts-consider-ditching-google-sear",
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times.",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "models",
+      "categoryLabel": "大模型",
       "impact": "high",
       "source": {
         "name": "The Verge AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-17T23:52:34.000Z",
-      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "publishedAt": "2026-11-18T23:18:35.000Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
       "tags": [
-        "安全",
-        "OpenAI",
-        "Agent"
+        "大模型",
+        "Google"
       ]
     },
     {
-      "id": "techcrunch-ai-nvidia-s-startup-stakes-ballooned-to-65b-but-huang-s-exit-puts-fut",
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
-      "category": "chips",
-      "categoryLabel": "芯片",
+      "id": "techcrunch-ai-microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
       "impact": "medium",
       "source": {
         "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-18T01:44:21.000Z",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "publishedAt": "2026-11-19T00:42:56.000Z",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
       "tags": [
-        "芯片",
-        "NVIDIA"
+        "商业"
       ]
     },
     {
-      "id": "techcrunch-ai-nvidia-is-abandoning-china-after-jensen-huang-s-ouster",
-      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "id": "the-verge-ai-nvidia-s-rise-visualized",
+      "title": "Nvidia’s rise, visualized",
+      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change.",
       "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
       "category": "chips",
       "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T23:37:48.000Z",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-satya-nadella-says-he-s-agi-pilled-now",
-      "title": "Satya Nadella says he’s AGI-pilled now",
-      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it.",
-      "analysis": "这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。",
-      "category": "business",
-      "categoryLabel": "商业",
       "impact": "medium",
       "source": {
         "name": "The Verge AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-18T01:48:18.000Z",
-      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "publishedAt": "2026-11-18T22:18:53.000Z",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
       "tags": [
-        "商业"
+        "芯片",
+        "NVIDIA"
       ]
     },
     {
-      "id": "techcrunch-ai-nvidia-says-its-open-source-ai-strategy-remains-intact-after-jense",
-      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "id": "techcrunch-ai-amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critica",
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T23:45:00.000Z",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "tags": [
+        "安全",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huan",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
       "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
       "category": "chips",
       "categoryLabel": "芯片",
@@ -118,57 +161,17 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-17T23:04:35.000Z",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "publishedAt": "2026-11-18T23:17:28.000Z",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
       "tags": [
         "芯片",
         "NVIDIA"
       ]
     },
     {
-      "id": "techcrunch-ai-nvidia-promises-that-revenue-will-keep-soaring-for-now",
-      "title": "Nvidia promises that revenue will keep soaring — for now",
-      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-18T00:16:50.000Z",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-nvidia-says-it-doesn-t-plan-to-reappoint-jensen-huang-as-ceo",
-      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
-      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T22:42:27.000Z",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-amazon-and-google-will-together-own-nearly-30-of-anthropic-after-i",
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "id": "techcrunch-ai-anthropic-prices-ipo-at-83-a-share-above-projected-range",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
       "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
       "category": "investment",
       "categoryLabel": "投资",
@@ -178,121 +181,116 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-17T22:29:05.000Z",
-      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "publishedAt": "2026-11-18T22:11:15.000Z",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
       "tags": [
         "投资",
-        "Anthropic",
-        "Google"
-      ]
-    },
-    {
-      "id": "the-verge-ai-nvidia-s-q3-earnings-hit-the-mark-without-mentioning-the-whole-jens",
-      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
-      "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T22:50:29.000Z",
-      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-google-s-spark-ai-agent-becomes-tasks-and-now-it-s-free",
-      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through...",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T18:58:54.000Z",
-      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-      "tags": [
-        "大模型",
-        "Google",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-sec-reportedly-investigating-nvidia-amid-huang-exit",
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T21:48:07.000Z",
-      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-proton-s-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-",
-      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-17T17:32:25.000Z",
-      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "tags": [
-        "大模型",
-        "OpenAI",
         "Anthropic"
       ]
     },
     {
-      "id": "openai-introducing-gpt-6-2-astra-and-sol",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "id": "techcrunch-ai-nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec",
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T21:57:40.000Z",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-snapchat-now-lets-developers-build-ar-lenses-with-ai-assistants-li",
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
       "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
       "category": "models",
       "categoryLabel": "大模型",
       "impact": "high",
       "source": {
-        "name": "OpenAI News",
-        "type": "Official"
+        "name": "TechCrunch AI",
+        "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-17T17:45:00.000Z",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-18T19:56:39.000Z",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
       "tags": [
         "大模型",
-        "OpenAI"
+        "Anthropic"
       ]
     },
     {
-      "id": "google-ai-put-gemini-to-work-for-you",
-      "title": "Put Gemini to work for you",
-      "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "id": "techcrunch-ai-palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses",
+      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+      "analysis": "政府、国安和监管相关内容会影响模型公司的销售边界、合规成本和跨境可用性。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T21:34:13.000Z",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "tags": [
+        "安全"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wa",
+      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T21:31:21.000Z",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "the-verge-ai-trump-s-latest-land-grab-is-an-ai-hub-in-the-philippines",
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-18T21:44:01.000Z",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "tags": [
+        "商业"
+      ]
+    },
+    {
+      "id": "google-ai-the-gemini-app-is-now-available-on-lower-memory-android-devices",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
       "category": "models",
       "categoryLabel": "大模型",
       "impact": "high",
@@ -301,8 +299,8 @@
         "type": "Official"
       },
       "region": "US",
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "tags": [
         "大模型",
         "Google",
