@@ -1,14 +1,14 @@
 {
-  "editionDate": "2026-11-22",
-  "generatedAt": "2026-11-22T03:33:23.714Z",
-  "windowStart": "2026-11-21T03:33:23.714Z",
-  "windowEnd": "2026-11-22T03:33:23.714Z",
+  "editionDate": "2026-11-23",
+  "generatedAt": "2026-11-23T04:05:53.526Z",
+  "windowStart": "2026-11-22T04:05:53.526Z",
+  "windowEnd": "2026-11-23T04:05:53.526Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 11
+    "investmentMentions": 12
   },
   "keylines": [
     {
@@ -26,6 +26,86 @@
   ],
   "stories": [
     {
+      "id": "techcrunch-ai-how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-23T01:25:53.000Z",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "tags": [
+        "投资",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-openai-s-chief-scientist-has-thoughts-on-how-to-limit-ai-developme",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-22T21:14:07.000Z",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "tags": [
+        "商业",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-22T18:08:43.000Z",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "the-verge-ai-binding-of-isaac-developer-removes-ai-music-from-repentance-plus",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music.",
+      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-22T17:25:20.000Z",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "tags": [
+        "商业",
+        "多模态"
+      ]
+    },
+    {
       "id": "techcrunch-ai-signal-restricts-mobile-screenshots-as-it-confronts-existential-th",
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
@@ -38,7 +118,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "publishedAt": "2026-11-23T02:50:53.526Z",
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "tags": [
         "商业"
@@ -57,7 +137,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "publishedAt": "2026-11-23T01:35:53.526Z",
       "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
       "tags": [
         "芯片",
@@ -77,7 +157,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T20:03:37.000Z",
+      "publishedAt": "2026-11-23T00:20:53.526Z",
       "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
       "tags": [
         "商业"
@@ -96,7 +176,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T17:00:00.000Z",
+      "publishedAt": "2026-11-22T23:05:53.526Z",
       "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "tags": [
         "商业",
@@ -116,7 +196,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T13:29:45.000Z",
+      "publishedAt": "2026-11-22T21:50:53.526Z",
       "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
       "tags": [
         "投资",
@@ -136,7 +216,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "publishedAt": "2026-11-22T20:35:53.526Z",
       "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
       "tags": [
         "商业"
@@ -155,7 +235,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-22T02:18:23.714Z",
+      "publishedAt": "2026-11-22T19:20:53.526Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "tags": [
         "大模型",
@@ -175,7 +255,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-22T01:03:23.714Z",
+      "publishedAt": "2026-11-22T18:05:53.526Z",
       "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
       "tags": [
         "投资",
@@ -195,7 +275,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T23:48:23.714Z",
+      "publishedAt": "2026-11-22T16:50:53.526Z",
       "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "tags": [
         "技术"
@@ -214,90 +294,11 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-21T22:33:23.714Z",
+      "publishedAt": "2026-11-22T15:35:53.526Z",
       "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
       "tags": [
         "芯片",
         "数据中心"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a",
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
-      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-21T21:18:23.714Z",
-      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "tags": [
-        "商业"
-      ]
-    },
-    {
-      "id": "mit-tr-ai-the-most-misunderstood-graph-in-ai-just-got-a-major-update",
-      "title": "The most misunderstood graph in AI just got a major update",
-      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment...",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "MIT Technology Review",
-        "type": "Research media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-21T20:03:23.714Z",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "tags": [
-        "投资"
-      ]
-    },
-    {
-      "id": "the-verge-ai-signal-is-blocking-gemini-and-siri-ai-from-reading-your-screen",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data.",
-      "analysis": "AI 投资回报讨论正在从愿景转向财务验证，企业会更关注单位成本、流程改造深度和可量化生产率提升。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-21T18:48:23.714Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "tags": [
-        "大模型",
-        "Google",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-the-fallout-from-nvidia-s-jensen-huang-scandal-continues",
-      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-21T17:33:23.714Z",
-      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
       ]
     }
   ],
@@ -360,7 +361,7 @@
     }
   ],
   "watchlist": [
-    "Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "OpenAI、Anthropic、NVIDIA 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
