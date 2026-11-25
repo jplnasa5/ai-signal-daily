@@ -1,19 +1,19 @@
 {
-  "editionDate": "2026-11-24",
-  "generatedAt": "2026-11-24T07:07:49.215Z",
-  "windowStart": "2026-11-23T07:07:49.215Z",
-  "windowEnd": "2026-11-24T07:07:49.215Z",
+  "editionDate": "2026-11-25",
+  "generatedAt": "2026-11-25T05:43:03.019Z",
+  "windowStart": "2026-11-24T05:43:03.019Z",
+  "windowEnd": "2026-11-25T05:43:03.019Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
     "sources": 8,
     "xSignals": 6,
-    "investmentMentions": 10
+    "investmentMentions": 11
   },
   "keylines": [
     {
-      "title": "芯片是今日主轴",
-      "text": "过去 24 小时里，芯片相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
+      "title": "投资是今日主轴",
+      "text": "过去 24 小时里，投资相关内容占比最高，说明媒体报道和社交讨论正在向这一方向集中。"
     },
     {
       "title": "Grok / xAI带动 X 讨论",
@@ -26,10 +26,31 @@
   ],
   "stories": [
     {
-      "id": "techcrunch-ai-anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-ap",
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
+      "id": "techcrunch-ai-yale-s-sonnenfeld-nvidia-is-a-detriment-to-us-industrial-might-not",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liabilit...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-25T00:12:02.000Z",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "tags": [
+        "芯片",
+        "NVIDIA",
+        "监管"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-even-the-best-ai-agents-struggle-with-everyday-life",
+      "title": "Even the best AI agents struggle with everyday life",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
       "category": "models",
       "categoryLabel": "大模型",
       "impact": "high",
@@ -38,38 +59,77 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T22:05:50.000Z",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "publishedAt": "2026-11-24T21:33:29.000Z",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "tags": [
         "大模型",
-        "Anthropic",
         "Agent"
       ]
     },
     {
-      "id": "openai-openai-and-cisco-introduce-shirudo",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "impact": "medium",
+      "id": "techcrunch-ai-walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
       "source": {
-        "name": "OpenAI News",
-        "type": "Official"
+        "name": "TechCrunch AI",
+        "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T21:20:00.000Z",
-      "url": "https://openai.com/index/introducing-shirudo",
+      "publishedAt": "2026-11-24T21:32:38.000Z",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
       "tags": [
-        "商业",
-        "OpenAI"
+        "投资",
+        "Agent",
+        "企业 AI"
       ]
     },
     {
-      "id": "techcrunch-ai-supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions",
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "id": "the-verge-ai-david-fincher-is-being-dragged-for-suspected-use-of-ai-in-his-lates",
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative...",
+      "analysis": "这条新闻属于资本与基础设施信号，后续重点是投入规模、成本压力和真实需求是否匹配。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "The Verge AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T18:38:16.000Z",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "tags": [
+        "投资"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-he-s",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "category": "chips",
+      "categoryLabel": "芯片",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T21:48:27.000Z",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
       "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
       "category": "investment",
       "categoryLabel": "投资",
@@ -79,132 +139,10 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T22:02:05.000Z",
-      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "publishedAt": "2026-11-24T21:19:52.000Z",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "tags": [
-        "投资",
-        "Agent"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-google-search-s-ai-mode-can-now-tap-into-drive-and-wallet-for-more",
-      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
-      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
-      "analysis": "这类观点把 AGI 路线之争重新拉回训练数据和世界模型问题：只扩大文本模型，未必能补足物理世界经验。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T19:14:46.000Z",
-      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
-      "tags": [
-        "大模型",
-        "Google"
-      ]
-    },
-    {
-      "id": "google-ai-a-more-tailored-google-search-that-s-uniquely-yours",
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
-      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
-      "category": "models",
-      "categoryLabel": "大模型",
-      "impact": "high",
-      "source": {
-        "name": "Google AI Blog",
-        "type": "Official"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T17:00:00.000Z",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "tags": [
-        "大模型",
-        "Google",
-        "多模态"
-      ]
-    },
-    {
-      "id": "the-verge-ai-ai-data-centers-throw-another-wrench-into-chaotic-un-climate-talks",
-      "title": "AI data centers throw another wrench into chaotic UN climate talks",
-      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging.",
-      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
-      "category": "investment",
-      "categoryLabel": "投资",
-      "impact": "high",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T21:09:37.000Z",
-      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
-      "tags": [
-        "投资",
-        "数据中心"
-      ]
-    },
-    {
-      "id": "the-verge-ai-trump-engineered-a-risky-comeback-for-jensen-huang",
-      "title": "Trump engineered a risky comeback for Jensen Huang",
-      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T22:34:20.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-how-jensen-huang-ended-up-as-nvidia-ceo-again",
-      "title": "How Jensen Huang ended up as Nvidia CEO again",
-      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounti...",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T20:38:44.000Z",
-      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-welcome-to-elite-impunity-jensen-huang",
-      "title": "Welcome to elite impunity, Jensen Huang",
-      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "The Verge AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T22:21:36.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-      "tags": [
-        "芯片",
-        "NVIDIA"
+        "投资"
       ]
     },
     {
@@ -220,7 +158,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T22:18:13.000Z",
+      "publishedAt": "2026-11-24T21:41:37.000Z",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
       "tags": [
         "芯片",
@@ -228,70 +166,30 @@
       ]
     },
     {
-      "id": "techcrunch-ai-elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvid",
-      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-      "analysis": "模型托管关系会牵动算力、商业竞争和数据控制权，供应方承诺之外还要看合同约束与平台中立性。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T21:47:41.000Z",
-      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "techcrunch-ai-nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-c",
-      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
-      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
-      "category": "chips",
-      "categoryLabel": "芯片",
-      "impact": "medium",
-      "source": {
-        "name": "TechCrunch AI",
-        "type": "Tech media"
-      },
-      "region": "US",
-      "publishedAt": "2026-11-23T20:38:53.000Z",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
-      "tags": [
-        "芯片",
-        "NVIDIA"
-      ]
-    },
-    {
-      "id": "the-verge-ai-claude-ai-can-review-pull-requests-and-ship-fixes-on-its-own-now",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests.",
-      "analysis": "AI 编程工具竞争正在进入大型迁移和多步骤修复场景，差异会体现在代码库理解、权限控制和可审计输出。",
-      "category": "models",
-      "categoryLabel": "大模型",
+      "id": "techcrunch-ai-anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-start",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "analysis": "用自家 Agent 完成融资是强营销信号，但真正的验证在于企业客户是否愿意把高价值流程交给同类自动化系统。",
+      "category": "investment",
+      "categoryLabel": "投资",
       "impact": "high",
       "source": {
-        "name": "The Verge AI",
+        "name": "TechCrunch AI",
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T17:10:02.000Z",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "publishedAt": "2026-11-24T18:30:42.000Z",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "tags": [
-        "大模型",
+        "投资",
         "Anthropic"
       ]
     },
     {
-      "id": "the-verge-ai-white-house-brags-that-trump-was-totally-involved-in-getting-jensen",
-      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was.",
-      "analysis": "芯片、模型套件和 Agent 编排框架一起出现时，重点不是单点性能，而是端到端推理成本、部署效率和生态绑定。",
+      "id": "the-verge-ai-jensen-huang-reportedly-tells-nvidia-staff-it-s-not-true-trump-got-",
+      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, a...",
+      "analysis": "版权诉讼的焦点正在从训练原则转向证据、数据集和输出归因，这会直接影响模型公司的合规成本与数据策略。",
       "category": "chips",
       "categoryLabel": "芯片",
       "impact": "medium",
@@ -300,11 +198,114 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-23T18:48:59.000Z",
-      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "publishedAt": "2026-11-24T20:52:19.000Z",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
       "tags": [
         "芯片",
         "NVIDIA"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-f",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "analysis": "资本与基础设施信号要和现金流、电力、算力利用率一起看，热度本身不等于可持续商业回报。",
+      "category": "investment",
+      "categoryLabel": "投资",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T16:10:00.000Z",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "tags": [
+        "投资",
+        "数据中心"
+      ]
+    },
+    {
+      "id": "google-ai-how-gemini-is-changing-the-game-for-golden-state-s-organization-and-fa",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "analysis": "模型新闻需要结合价格、延迟、上下文、工具调用和真实任务稳定性评估，单一榜单不足以判断产品竞争力。",
+      "category": "models",
+      "categoryLabel": "大模型",
+      "impact": "high",
+      "source": {
+        "name": "Google AI Blog",
+        "type": "Official"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "tags": [
+        "大模型",
+        "Google",
+        "多模态",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "mit-tr-ai-raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "Research media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T15:15:16.000Z",
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "tags": [
+        "商业",
+        "Agent",
+        "企业 AI"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "analysis": "这条新闻属于商业化信号，后续重点是它是否进入高频工作流，并形成稳定付费或留存。",
+      "category": "business",
+      "categoryLabel": "商业",
+      "impact": "medium",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T17:00:00.000Z",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "tags": [
+        "商业",
+        "Agent"
+      ]
+    },
+    {
+      "id": "techcrunch-ai-uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-securit",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "analysis": "安全与真实性议题正在从原则讨论进入可执行工具，媒体、平台和企业需要更快识别合成内容与自动化攻击。",
+      "category": "safety",
+      "categoryLabel": "安全",
+      "impact": "high",
+      "source": {
+        "name": "TechCrunch AI",
+        "type": "Tech media"
+      },
+      "region": "US",
+      "publishedAt": "2026-11-24T18:02:59.000Z",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "tags": [
+        "安全",
+        "监管"
       ]
     }
   ],
@@ -358,8 +359,8 @@
       "text": "模型发布仍最容易引爆讨论，但企业最终会按稳定性、成本、权限集成和数据安全来选择供应商。"
     },
     {
-      "title": "安全议题需要持续监测",
-      "text": "即使今天没有重大安全事件，Agent 普及也会放大身份权限和数据访问风险。"
+      "title": "安全窗口继续缩短",
+      "text": "AI Agent 让攻击链更自动化，防守重点需要前移到身份、权限、工具调用和数据访问异常。"
     },
     {
       "title": "资本开支影响模型竞争",
@@ -367,7 +368,7 @@
     }
   ],
   "watchlist": [
-    "OpenAI、Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
+    "Anthropic、Google、NVIDIA 是否发布新的 API、价格或企业访问策略",
     "X 高热讨论是否被主流媒体确认，还是停留在圈层争议",
     "AI 数据中心和芯片供应是否出现新的融资、电力或交付约束",
     "监管机构是否把 AI 安全、版权、金融建议或出口限制推进到执法层面"
