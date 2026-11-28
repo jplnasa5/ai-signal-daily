@@ -1,8 +1,8 @@
 {
-  "editionDate": "2026-11-27",
-  "generatedAt": "2026-11-27T05:26:29.147Z",
-  "windowStart": "2026-11-26T05:26:29.147Z",
-  "windowEnd": "2026-11-27T05:26:29.147Z",
+  "editionDate": "2026-11-28",
+  "generatedAt": "2026-11-28T05:01:30.938Z",
+  "windowStart": "2026-11-27T05:01:30.938Z",
+  "windowEnd": "2026-11-28T05:01:30.938Z",
   "summary": "过去 24 小时 AI 新闻按技术、模型、商业、投资、安全与监管聚合。页面优先展示影响力高、来源清晰、并且能解释后续产业意义的信号。",
   "metrics": {
     "stories": 14,
@@ -38,7 +38,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "publishedAt": "2026-11-28T03:46:30.938Z",
       "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "tags": [
         "芯片",
@@ -58,7 +58,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "publishedAt": "2026-11-28T02:31:30.938Z",
       "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "tags": [
         "商业",
@@ -79,7 +79,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T12:29:18.000Z",
+      "publishedAt": "2026-11-28T01:16:30.938Z",
       "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
       "tags": [
         "芯片",
@@ -100,7 +100,7 @@
         "type": "Research media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T13:10:00.000Z",
+      "publishedAt": "2026-11-28T00:01:30.938Z",
       "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
       "tags": [
         "商业"
@@ -119,7 +119,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "publishedAt": "2026-11-27T22:46:30.938Z",
       "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
       "tags": [
         "商业"
@@ -138,7 +138,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-27T04:11:29.147Z",
+      "publishedAt": "2026-11-27T21:31:30.938Z",
       "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "tags": [
         "芯片",
@@ -158,7 +158,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-27T02:56:29.147Z",
+      "publishedAt": "2026-11-27T20:16:30.938Z",
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "tags": [
         "大模型",
@@ -178,7 +178,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-27T01:41:29.147Z",
+      "publishedAt": "2026-11-27T19:01:30.938Z",
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "tags": [
         "大模型",
@@ -198,7 +198,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-27T00:26:29.147Z",
+      "publishedAt": "2026-11-27T17:46:30.938Z",
       "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
       "tags": [
         "商业",
@@ -219,7 +219,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T23:11:29.147Z",
+      "publishedAt": "2026-11-27T16:31:30.938Z",
       "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
       "tags": [
         "芯片",
@@ -240,7 +240,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T21:56:29.147Z",
+      "publishedAt": "2026-11-27T15:16:30.938Z",
       "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "tags": [
         "芯片",
@@ -260,7 +260,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T20:41:29.147Z",
+      "publishedAt": "2026-11-27T14:01:30.938Z",
       "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
       "tags": [
         "芯片",
@@ -281,7 +281,7 @@
         "type": "Research media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T19:26:29.147Z",
+      "publishedAt": "2026-11-27T12:46:30.938Z",
       "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
       "tags": [
         "投资",
@@ -301,7 +301,7 @@
         "type": "Tech media"
       },
       "region": "US",
-      "publishedAt": "2026-11-26T18:11:29.147Z",
+      "publishedAt": "2026-11-27T11:31:30.938Z",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "tags": [
         "安全"
